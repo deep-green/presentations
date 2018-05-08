@@ -7,7 +7,7 @@ class: center, middle
 ## Reinforcement Learning
 
 * Versucht das Lernverhalten aus der Natur nachzubilden (Belohnungssystem)
-* Bezeichnet eine Reihe von Methoden des maschinellen Lernens - f
+* Ist ein Teilgebiet des maschinellen Lernens
 * Beginnt mit der Exploration der Umwelt
 * Trial and Error
 * Erhält zu bestimmten Zeitpunkten Belohnungen
