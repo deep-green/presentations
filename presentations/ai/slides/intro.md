@@ -6,6 +6,7 @@ class: center, middle
 
 # Agenda
 
-1. Introduction
-2. Deep-dive
-3. ...
+1. MiniMax Algorithmus
+2. Reinforcement Learning
+3. Neuronale Netze
+4. Tensorflow
