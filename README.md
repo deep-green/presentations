@@ -1,5 +1,5 @@
 # Voraussetzungen
-* [Python](https://www.python.org/)
+* [Python3](https://www.python.org/)
 
 # How to Use
 1. Repository klonen (`git clone https://github.com/deep-green/presentations.git)`
