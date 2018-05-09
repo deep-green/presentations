@@ -1,5 +1,5 @@
 # Voraussetzungen
-* [Python3](https://www.python.org/)
+* [Python3](https://www.python.org/), anderer Webserver oder [Github-Pages](https://pages.github.com/)
 
 # How to Use
 1. Repository klonen (`git clone https://github.com/deep-green/presentations.git)`
@@ -21,4 +21,4 @@ var sourceUrls = [
 - [Künstliche Intelligenz](https://deep-green.github.io/presentations/presentations/ai)
 
 ### Autor
-* [Patrick Reinke](https://github.com/reinkepatrick)
+- [Patrick Reinke](https://github.com/reinkepatrick)
