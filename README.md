@@ -17,5 +17,8 @@ var sourceUrls = [
 ];
 ```
 
+# Präsentationen
+- [Künstliche Intelligenz](https://deep-green.github.io/presentations/presentations/ai)
+
 ### Autor
 * [Patrick Reinke](https://github.com/reinkepatrick)
