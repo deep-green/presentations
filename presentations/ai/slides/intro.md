@@ -5,7 +5,6 @@ class: center, middle
 ---
 
 # Agenda
-
 1. Was ist künstliche Intelligenz?
 2. MiniMax Algorithmus
 3. Reinforcement Learning
