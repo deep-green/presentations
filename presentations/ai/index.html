@@ -3,7 +3,6 @@
 <head>
     <title>Künstliche Intelligenz</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../../includes/remark.less">
     <style>
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
         @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
@@ -11,10 +10,11 @@
 
         body { font-family: 'Open Sans', sans-serif; }
         h1, h2, h3 {
-            font-family: 'Yanone Kaffeesatz';
+            font-family: 'Yanone Kaffeesatz', sans-serif;
             font-weight: normal;
         }
-        .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+        .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono', sans-serif; }
 
         .red {
             color: #EC4758;
@@ -22,6 +22,15 @@
 
         .bold {
             font-weight: bold;
+        }
+
+        .remark-slide-content ul li,
+        .remark-slide-content ol li {
+            padding: 6px 0;
+        }
+
+        img {
+            max-width: 100%;
         }
     </style>
 </head>
