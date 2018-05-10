@@ -1,9 +1,7 @@
 class: center, middle
 
 # Hilfsmittel
-<img align="center" width="320" height="170" src="./images/opencv.png">
-
-![OpenCV](images/opencv.png "OpenCV")
+<img align="center" width="200" height="200" src="./images/opencv.png">
 
 - freie Softwarebibliothek (opencv.org)
 - Open-Source-Lizenz (BSD)
