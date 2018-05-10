@@ -27,7 +27,11 @@ class: center, middle
 	* Bei den versteckten Schichten die im Gegensatz zur Eingangsschicht und Ausgangsschicht auch mehrere Schichten umfassen kann, findet die haupt 	Mustererkennung statt
 	* Bei der Ausgangsschicht wird das Resultat der Berechnung festgelegt
 
-![nn](images/neuro1.png "Neurales Netzwerk")
+---
+
+## Wie ist ein neuronales Netz aufgebaut?
+
+![nn](images/neuro1.png "Neurales Netzwerk"| width = 300)
 
 ---
 ## Doch wie kann man sich das jetzt vorstellen?
