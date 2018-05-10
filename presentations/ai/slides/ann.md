@@ -36,5 +36,9 @@ class: center, middle
 
 ---
 ## Doch wie kann man sich das jetzt vorstellen?
-<img src="images/netz2.jpg" width="50%">
-<img src="images/zahlen.png" width="50%">
+<img src="images/netz2.jpg" width="100%">
+
+---
+
+## Doch wie kann man sich das jetzt vorstellen?
+<img src="images/zahlen.png" width="70%">
