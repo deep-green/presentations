@@ -3,7 +3,8 @@ class: center, middle
 # Bildverarbeitung - Image-Processing
 # Bilderkennung - Image-Analysis
 
-![Titelbild](images/titelbild.jpg "")
+<img align="center" width="960" height="640" src="./images/titelbild.jpg">
+
 ---
 
 # Definitionen
@@ -31,6 +32,6 @@ Bilderkennung (englisch image analysis) ist ein Teilgebiet der Mustererkennung u
 5. Dem Spieler wird die erkannte Situation angezeigt
 6. Der Spieler kann Korrekturen vornehmen
 
-![Schachnotation](images/schachnotation.png "Schachnotation")
+<img align="center" width="150" height="150" src="./images/schachnotation.png">
 
 ---
