@@ -19,6 +19,8 @@ var sourceUrls = [
 
 # Präsentationen
 - [Künstliche Intelligenz](https://deep-green.github.io/presentations/presentations/ai)
+- [Künstliche Intelligenz](https://towini.github.io/presentations/presentations/image_processing)
 
 ### Autor
 - [Patrick Reinke](https://github.com/reinkepatrick)
+- [Torsten Niemeier](https://github.com/towini)
