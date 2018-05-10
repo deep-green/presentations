@@ -19,12 +19,22 @@ class: center, middle
 
 ## Wie funktioniert TensorFlow?
 
+- Berechnungen werden über Datenflussgraphen ausgeführt
+- In diesen Graphen representieren die Knoten mathematische Funktionen
+- Die Kanten repräsentieren die Daten, welche für gewöhnlich multidimensionale Arrays sind oder Tensoren
+
+
+---
+
+## Wie verwende ich TensorFlow?
+
 - Zuerst installieren: **pip3 install --upgrade tensorflow**
 	- Für GPU Version: **pip3 install --upgrade tensorflow-gpu**
 - Im Skript importieren: **import tensorflow as tf**
 - Anschließend hat man Zugriff auf alle Operationen und Methoden von TensorFlow
 - Beispiel:
 <img src="images/bspskript.PNG" width="75%">
+
 ---
 
 ## Wie kann ich mir nun meinen Graphen angucken?
