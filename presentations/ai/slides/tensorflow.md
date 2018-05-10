@@ -1,7 +1,7 @@
 class: center, middle
 
 # Tensorflow
-![tf](images/tf.png "tensorflow")
+<img src="images/tf.png" width="100%">
 
 ---
 
@@ -24,12 +24,12 @@ class: center, middle
 - Im Skript importieren: **import tensorflow as tf**
 - Anschließend hat man Zugriff auf alle Operationen und Methoden von TensorFlow
 - Beispiel:
-![tf](images/bspskript.png "tensorflow")
-
+<img src="images/bspskript.png" width="100%">
 ---
 
 ## Wie kann ich mir nun meinen Graphen angucken?
 
 - Es ist möglich über die Kommandozeile eine Darstellung auf den localhost zu streamen
 	- Beispiel:  **tensorboard --logdir="C:\Users\Luis Deutsch\Desktop\output" --host=127.0.0.1**
-![tf](images/graphex.png "tensorflow")
+
+<img src="images/graphex.png" width="100%">
