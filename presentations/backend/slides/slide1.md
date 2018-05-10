@@ -1,11 +1,39 @@
 class: center, middle
 
-# Title
+# Schachsoftware
+### Überblick - Standards - Möglichkeiten
 
 ---
 
 # Agenda
 
-1. Introduction
-2. Deep-dive
-3. ...
+1. Einführung
+
+2. Historie
+
+3. Aufbau
+
+4. Standards
+
+5. Möglichkeiten in Deep Green
+
+---
+
+# Einführung
+
+
+---
+
+# Historie
+
+---
+
+# Aufbau
+
+---
+
+# Standards
+
+---
+
+# Möglichkeiten
