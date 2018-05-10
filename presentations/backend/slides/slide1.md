@@ -33,6 +33,15 @@ template: templating
 # Einführung
 
 .left[
+- in fast allen Kulturen bekannt
+
+- besitzt große Bedeutung
+
+- sehr beliebtes Feld der Informatik
+
+- vorhandene Standards
+
+- sehr viele vorhandene Produkte
 ]
 
 ---
