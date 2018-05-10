@@ -1,8 +1,7 @@
 class: center, middle
 
-# Bildverarbeitung
-# Bilderkennung
-# Image-Processing
+# Bildverarbeitung - Image-Processing
+# Bilderkennung - Image-Analysis
 
 ---
 
