@@ -16,7 +16,7 @@ class: center, middle
 	- Spiele-Gegner
 	- Vorherrsagen treffen
 
-![nn](images/autonomesfahren.jpg "Neurales Netzwerk")
+![nn](images/autonomesfahren.jpg "Neurales Netzwerk"| width=50)
 ---
 
 ## Wie ist ein neuronales Netz aufgebaut?
@@ -32,4 +32,4 @@ class: center, middle
 ---
 ## Doch wie kann man sich das jetzt vorstellen?
 ![nn](images/netz2.jpg "Neurales Netzwerk")
-![nn](images/zahlen.png "Neurales Netzwerk")
+![nn](images/zahlen.png "Neurales Netzwerk"| width=100)
