@@ -1,7 +1,7 @@
 class: center, middle
 
 # Hilfsmittel
-<img align="center" width="320" height="170" src="opencv.png">
+<img align="center" width="320" height="170" src="images/opencv.png">
 ![OpenCV](images/opencv.png "OpenCV")
 
 - freie Softwarebibliothek (opencv.org)
