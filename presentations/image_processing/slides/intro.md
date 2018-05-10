@@ -3,7 +3,7 @@ class: center, middle
 # Bildverarbeitung - Image-Processing
 # Bilderkennung - Image-Analysis
 
-![nn](images/titelbild.jpg "")
+![Titelbild](images/titelbild.jpg "")
 ---
 
 # Definitionen
