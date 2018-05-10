@@ -74,7 +74,19 @@ template: templating
 # Aufbau
 
 .left[
+- unterteilt in Engine und Frontend
 
+- __Frontend__
+    -  muss Protokolle unterstützen
+
+- __Engine__
+    - Zuggenerator
+        
+    - Bewertungsfunktion
+
+    - Bibliotheken und Datenbanken
+
+    - Schachdatenbank (gespielte Partien)
 ]
 
 ---
