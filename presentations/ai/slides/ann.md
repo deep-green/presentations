@@ -2,7 +2,7 @@ class: center, middle
 
 # Neuronale Netze
 
-![nn](../images/nncover.jpg "Neurales Netzwerk")
+![nn](images/nncover.jpg "Neurales Netzwerk")
 
 ---
 ## Wofür nutzt man neuronale Netze?
@@ -16,7 +16,7 @@ class: center, middle
 	- Spiele-Gegner
 	- Vorherrsagen treffen
 
-![nn](../images/autonomesfahren.jpg "Neurales Netzwerk")
+![nn](images/autonomesfahren.jpg "Neurales Netzwerk")
 ---
 
 ## Wie ist ein neuronales Netz aufgebaut?
@@ -27,9 +27,9 @@ class: center, middle
 	* Bei den versteckten Schichten die im Gegensatz zur Eingangsschicht und Ausgangsschicht auch mehrere Schichten umfassen kann, findet die haupt 	Mustererkennung statt
 	* Bei der Ausgangsschicht wird das Resultat der Berechnung festgelegt
 
-![nn](../images/neuro1.png "Neurales Netzwerk")
+![nn](images/neuro1.png "Neurales Netzwerk")
 
 ---
 ## Doch wie kann man sich das jetzt vorstellen?
-![nn](../images/netz2.jpg "Neurales Netzwerk")
-![nn](../images/zahlen.png "Neurales Netzwerk")
+![nn](images/netz2.jpg "Neurales Netzwerk")
+![nn](images/zahlen.png "Neurales Netzwerk")
