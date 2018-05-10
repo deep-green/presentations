@@ -1,15 +1,20 @@
 class: center, middle
 
-# Künstliche Intelligenz
+# Bildverarbeitung
+# Bilderkennung
+# Image-Processing
 
 ---
 
-# Agenda
-1. Was ist künstliche Intelligenz?
-2. MiniMax Algorithmus
-3. Reinforcement Learning
-4. Neuronale Netze
-5. Tensorflow
+# Definitionen
+
+## Bildverarbeitung
+Unter Bildverarbeitung versteht man in der Informatik und der Elektrotechnik die Verarbeitung von Signalen, die Bilder repräsentieren, beispielsweise Fotografien oder Einzelbilder aus Videos. Das Ergebnis einer Bildverarbeitung kann wiederum ein Bild sein oder auch eine Menge von Merkmalen des Eingabebildes (siehe Bilderkennung). In den meisten Fällen werden Bilder als zweidimensionales Signal betrachtet, so dass übliche Methoden aus der Signalverarbeitung angewandt werden können.
+[Wikipedia]
+
+## Bilderkennung
+Bilderkennung (englisch image analysis) ist ein Teilgebiet der Mustererkennung und der Bildverarbeitung. In der Bilderkennung versucht man, Objekte in einem Bild zu segmentieren. Diesen wird eine symbolische Beschreibung zugewiesen, aber es wird nicht nach Zusammenhängen zwischen den Objekten gesucht, wie es in der Musteranalyse üblich ist. 
+[Wikipedia]
 
 ---
 
