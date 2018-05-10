@@ -50,6 +50,22 @@ template: templating
 # Historie
 
 .left[
+- Schachprogramme gibt es, seit es Rechenmaschinen gibt
+
+- __Schachcomputer__
+    - Torres' Turmendspielautomat (Leonardo Torres Quervedo, 1914)
+
+    - ab 1950er zahllose Entwicklungen
+
+    - Schachcomputer Belle (Ken Thompson, 1979)
+
+- __Schachsoftware/-algorithmen__
+    - Programm für Zuse Z1 (Konrad Zuse)
+    
+    - Alan Turing (Papiermaschine)
+
+    - Teil der Spieltheorie (John von Neumann)
+
 ]
 
 ---
