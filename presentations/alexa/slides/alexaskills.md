@@ -35,7 +35,7 @@ class: center, middle
 ---
 class: center, middle
 
-## Aufruf des erstellten Skills
+## Skill Aufruf
 
 <img src="images/createskill_5.png" width="100%">
 
