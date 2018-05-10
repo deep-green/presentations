@@ -56,4 +56,11 @@ class: center, middle
 ---
 class: center, middle
 
+## Ausdruck zum auslösen der Aktion
+
+<img src="images/testintent.png" width="100%">
+
+---
+class: center, middle
+
 #Ende
