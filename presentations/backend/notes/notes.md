@@ -1,8 +1,8 @@
-# Die Schachsoftwar Deep Green
+# Die Schachsoftware Deep Green
 
 ## Notizen zur Präsentation
 
-## Einführung
+## 1. Einführung
 
 - Schach ist eines der wenigen (bzw. einzige?) Spiel, dass im Großteil der Kulturen bekannt ist (westlich, Vorderasien -> Abwandlungen in Asien)
 
@@ -14,7 +14,7 @@
 
 - Daraus ergeben sich Möglichkeiten für vermarktbare Produkte (besonders Frontend)
 
-## 1. Kurze Historie der Schachsoftware
+## 2. Kurze Historie der Schachsoftware
 
 - Schachsoftware, bzw. Computerschach gibt es schon seit es Rechenmaschinen gibt
 
@@ -35,7 +35,7 @@
 
 - nahm interessante Auswüchse an (Cray X-MP [50 Mio\$] vs Belle[50k\$])
 
-## 2. Klassischer Aufbau von Schachsoftware
+## 3. Klassischer Aufbau von Schachsoftware
 
 - unterteilt in Engine und Frontend
 
@@ -55,7 +55,7 @@
         - Endspieldatenbank
     - Schachdatenbank (gespielte Partien)
 
-## 3. Standards
+## 4. Standards
 
 - Protokolle
     * Chess Engine Communication Protocol (CECP)
@@ -68,4 +68,4 @@
     * Beschreibt die Wahrscheinlichkeit eines Sieges anhand des aktuellen Punktestands
     * Punktegewinn anhand derr Wahrscheinlichkeit höher oder niedriger
 
-## 4. Für das Projekt interessante Möglichkeiten der Umsetzung
+## 5. Für das Projekt interessante Möglichkeiten der Umsetzung
