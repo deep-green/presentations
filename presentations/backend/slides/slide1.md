@@ -95,7 +95,19 @@ template: templating
 # Standards
 
 .left[
+- Protokolle
+    - Chess Engine Communication Protocol (CECP)
 
+    - Universal Chess Interface (UCI)
+
+    - Beide Spezifikationen offen, werden von vielen Engines und GUIs unterstützt
+
+- Elo Zahlen
+    - Rating System
+ 
+    - erfunden von Physiker und Statistiker Arpad Elo
+
+    - Standard-System im Weltschachverband FIDE
 ]
 
 ---
