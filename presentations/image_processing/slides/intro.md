@@ -1,6 +1,6 @@
 # Maschinelles Sehen - Computer Vision
 
-... oder Bildverstehen beschreibt im Allgemeinen die computergestützte Lösung von Aufgabenstellungen, die sich an den Fähigkeiten des menschlichen visuellen Systems orientieren. 
+... oder "Bildverstehen" beschreibt im Allgemeinen die computergestützte Lösung von Aufgabenstellungen, die sich an den Fähigkeiten des menschlichen visuellen Systems orientieren. 
 [Wikipedia]
 
 ## Teilgebiet der Informatik
