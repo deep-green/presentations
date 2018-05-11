@@ -25,6 +25,9 @@
 - Stereoskopisches Sehen (Tiefenbilder)
 - Photogrammetrie (Foto -> 3D-Modell)
 - Motion Compensation (Video-Kompression)
+- beinhaltet auch Bibliothek für Maschinelles Lernen 
+
+Stärken: hohe Geschwindigkeit, viele Algorithmen aus neuesten Forschungsergebnissen 
 
 ---
 
