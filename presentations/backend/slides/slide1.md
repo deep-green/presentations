@@ -129,4 +129,12 @@ template: templating
 .center[![CECP](./img/cecp_example.jpg)]
 
 .footnote[https://www.gnu.org/software/xboard/engine-intf.html]
+---
+template: templating
+
+# Universal Chess Interface
+
+.center[![UCI](./img/uci_example.png)]
+
+.footnote[http://www.shredderchess.de/schach-info/features/uci-universal-chess-interface.html]
 
