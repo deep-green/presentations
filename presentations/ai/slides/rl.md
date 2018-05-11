@@ -26,3 +26,4 @@ class: center, middle
 
 ## Reinforcement Learning
 ![alt text](images/reinforcement-learning.png "RL")
+###### [Quelle: Statworx](https://www.statworx.com/de/blog/einfuehrung-in-reinforcement-learning-wenn-maschinen-wie-menschen-lernen/)
