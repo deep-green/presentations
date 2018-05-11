@@ -92,6 +92,13 @@ template: templating
 ---
 template: templating
 
+# Engine Architektur
+
+.center[![Engine Architektur](./img/engine_architecture.jpg)]
+
+---
+template: templating
+
 # Standards
 
 .left[
