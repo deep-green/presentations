@@ -173,3 +173,8 @@ template: templating
 .center[![ELO Zahlen](./img/elo_example2.png)]
 
 .footnote[https://de.wikipedia.org/wiki/Elo-Zahl]
+---
+class: center, middle
+background-image: url(./img/game-of-chess.png)
+
+# Vielen Dank für die Aufmerksamkeit
