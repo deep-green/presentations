@@ -1,4 +1,9 @@
 # Hilfsmittel
+
+<p align="center">    
+  <img align="center" src="./images/opencv.png">
+</p>
+
 <img align="center" width="200" height="200" src="./images/opencv.png">
 
 - freie Softwarebibliothek (opencv.org)
