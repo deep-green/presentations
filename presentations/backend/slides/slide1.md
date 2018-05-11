@@ -124,9 +124,9 @@ template: templating
 ---
 template: templating
 
-# Möglichkeiten
+# Chess Engine Communication Protocol
 
-.left[
+.center[![CECP](./img/cecp_example.jpg)]
 
-]
+.footnote[https://www.gnu.org/software/xboard/engine-intf.html]
 
