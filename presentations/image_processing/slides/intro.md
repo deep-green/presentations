@@ -33,7 +33,6 @@ Bilderkennung (englisch image analysis) ist ein Teilgebiet der Mustererkennung u
 6. Der Spieler kann Korrekturen vornehmen
 
 <p align="center">
-  <img align="center" width="200" height="200" src="./images/schachnotation.png">
+  <img align="center" width="250" height="250" src="./images/schachnotation.png">
 </p>
 
-<img align="center" width="200" height="200" src="./images/schachnotation.png">
