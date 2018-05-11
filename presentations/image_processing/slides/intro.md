@@ -12,13 +12,13 @@
 
 ---
 
-# aktuellen Forschungs- und Anwendungsprojekte 
+# akt. Forschungs- und Anwendungsprojekte 
 
 ## größtenteils: 
 - Objekte erkennen, beschreiben, vermessen, klassifizieren
 
 ## kleiner Bereich:
-- Bilder tatsächlich verstehen oder interpretieren
+- Bilder tatsächlich verstehen bzw. interpretieren
 
 ## Werkzeuge:
 - Mathematik (Geometrie, linearer Algebra, Statistik, Optimierung und Funktionalanalysis)
