@@ -3,10 +3,25 @@
 ... oder Bildverstehen beschreibt im Allgemeinen die computergestützte Lösung von Aufgabenstellungen, die sich an den Fähigkeiten des menschlichen visuellen Systems orientieren. 
 [Wikipedia]
 
+## Teilgebiet der Informatik
+
 ## Anwendungsgebiete:
 - Industrie (Automatisierung, Qualitätskontrolle, Robotik)
 - Verkehrstechnik (Radarfalle (Kennzeichen), autonomes Fahren)
 - Sicherheitstechnik (Zutrittskontrolle, Erkennung von Gefahrensituationen)
+
+---
+
+# aktuellen Forschungs- und Anwendungsprojekte 
+
+## größtenteils: 
+- Objekte erkennen, beschreiben, vermessen, klassifizieren
+
+## kleiner Bereich:
+- Bilder tatsächlich verstehen oder interpretieren
+
+## Werkzeuge:
+- Mathematik (Geometrie, linearer Algebra, Statistik, Optimierung und Funktionalanalysis)
 
 ---
 
