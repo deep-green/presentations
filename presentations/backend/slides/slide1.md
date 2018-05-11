@@ -138,3 +138,22 @@ template: templating
 
 .footnote[http://www.shredderchess.de/schach-info/features/uci-universal-chess-interface.html]
 
+---
+template: templating
+
+# FEN
+
+.center[![FEN Zeilenaufbau](./img/fenhelp2.gif)]
+
+.footnote[https://de.wikipedia.org/wiki/Forsyth-Edwards-Notation]
+
+---
+template: templating
+
+# FEN
+
+.center[![SCHACH Grundstellung](./img/chess_board.jpg)]
+
+```c
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+```
