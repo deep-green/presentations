@@ -10,6 +10,17 @@
 
 ---
 
+# Beispiel: clahe
+<p align="left">
+  <img align="left" width="320" src="./images/clahe_01.png">
+</p>
+
+<p align="right">
+  <img align="right" width="320" src="./images/clahe_02.png">
+</p>
+
+---
+
 # Beispiel: threshold
 
 <p align="left">  
