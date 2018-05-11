@@ -102,6 +102,10 @@ template: templating
 
     - Beide Spezifikationen offen, werden von vielen Engines und GUIs unterstützt
 
+- FEN - Forsyth-Edwards Notation
+    - Eine Notation, die die gesamte Situation eines Bretts darstellen kann
+    - erweiterte Varianten X-FEN und Shredder-FEN
+
 - Elo Zahlen
     - Rating System
  
