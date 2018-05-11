@@ -13,6 +13,21 @@
 - Alternativen: scikit-image (Python), CImg (C++)
 
 ---
+
+# OpenCV-Anwendungsfelder (Auszug!)
+
+- Gesichtserkennung
+- Gestenerkennung
+- Mensch-Computer-Interaktion (HCI)
+- mobile Roboter
+- Objekterkennung
+- Segmentierung
+- Stereoskopisches Sehen (Tiefenbilder)
+- Photogrammetrie (Foto -> 3D-Modell)
+- Motion Compensation (Video-Kompression)
+
+---
+
 # OpenCV-Algorithmen (Auszug!)
 
 - **blur, GaussianBlur** noise reduction
