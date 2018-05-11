@@ -157,3 +157,19 @@ template: templating
 ```c
 rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 ```
+---
+# Elo Zahlen
+
+.center[![ELO Zahlen](./img/elo_rating.png)]
+
+.footnote[https://de.wikipedia.org/wiki/Elo-Zahl]
+
+---
+
+template: templating
+
+# Elo Zahlen
+
+.center[![ELO Zahlen](./img/elo_example2.png)]
+
+.footnote[https://de.wikipedia.org/wiki/Elo-Zahl]
