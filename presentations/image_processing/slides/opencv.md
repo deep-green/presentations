@@ -7,7 +7,7 @@
 - freie Softwarebibliothek (opencv.org)
 - Open-Source-Lizenz (Berkeley Software Distribution )
 - Algorithmen für Bildverarbeitung
-- für C/C++, Pyton und Java
+- für C/C++, Pyton und Java (Doku nahezu nur für C++ und Python)
 - viele Beispiele im Netz (Adrian Rosebrock)
 - hoher Funktionsumfang (>2500 Algorithmen)
 - Alternativen: scikit-image (Python), CImg (C++)
