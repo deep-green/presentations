@@ -22,3 +22,12 @@
 
 ---
 
+# Beispiel: HoughLines
+
+<p align="left">    
+  <img align="left" width="350" src="./images/HoughLines_01.png">
+</p>
+
+<p align="right">    
+  <img align="right" width="350" src="./images/HoughLines_02.png">
+</p>
