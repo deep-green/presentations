@@ -8,7 +8,7 @@ count: false
 background-image: url(./img/game-of-chess.png)
 
 # Schachsoftware
-### Überblick - Standards - Möglichkeiten
+### Überblick / Standards
 
 ---
 template: templating
@@ -24,8 +24,6 @@ count: false
 3. Aufbau
 
 4. Standards
-
-5. Möglichkeiten in Deep Green
 ]
 ---
 template: templating
