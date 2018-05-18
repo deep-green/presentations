@@ -48,6 +48,14 @@ Theorien und Modelle -> Konstruktion maschinell sehender Systeme
 
 ### industrielle Umgebung vs. natürliche Umgebung
 
+<p align="left">
+  <img align="left" width="250" src="./images/tuer.jpg">
+</p>
+
+<p align="right">
+  <img align="right" width="250" src="./images/strasse.png">
+</p>
+
 ---
 
 # akt. Forschungs- und Anwendungsprojekte 
