@@ -3,7 +3,7 @@
 ## ... oder "Bildverstehen"
 
 <p align="center">
-  <img align="center" width="650" src="./images/bild1.jpg">
+  <img align="center" width="750" src="./images/bild1.jpg">
 </p>
 
 ---
@@ -11,7 +11,7 @@
 # Tasks
 
 <p align="right">
-  <img align="right" width="400" src="./images/katze.png">
+  <img align="right" width="450" src="./images/katze.png">
 </p>
 
 ### - digitale Bilder 
