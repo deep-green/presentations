@@ -3,10 +3,8 @@
 ## ... oder "Bildverstehen"
 
 <p align="center">
-  <img align="center" width="300" src="./images/bild1.jpg">
+  <img align="center" width="650" src="./images/bild1.jpg">
 </p>
-
----
 
 ---
 
@@ -55,9 +53,11 @@ Theorien und Modelle -> Konstruktion maschinell sehender Systeme
 # akt. Forschungs- und Anwendungsprojekte 
 
 ## größtenteils: 
+
 - Objekte erkennen, beschreiben, vermessen, klassifizieren
 
 ## kleiner Bereich:
+
 - Bilder tatsächlich verstehen bzw. interpretieren
 
 ---
