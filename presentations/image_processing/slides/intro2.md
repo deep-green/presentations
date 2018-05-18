@@ -7,7 +7,6 @@
   <img align="center" width="700" src="./images/bild1.jpg">
 </p>
 
-
 ---
 
 # Tasks
