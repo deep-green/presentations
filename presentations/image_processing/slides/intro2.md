@@ -4,20 +4,6 @@
 
 ---
 
-## wissenschaftliche Disziplin:
-
-Theorie hinter künstlichen Systemen, die Informationen aus Bilder extrahieren
-
-## technologische Disziplin:
-
-Theorien und Modelle -> Konstruktion maschinell sehender Systeme
-
-## Werkzeuge:
-
-- Mathematik (Geometrie, linearer Algebra, Statistik, Optimierung und Funktionalanalysis)
-
----
-
 ## Anwendungsgebiete:
 
 - Industrie (Automatisierung, Qualitätskontrolle, Robotik)
