@@ -2,10 +2,11 @@
 
 ## ... oder "Bildverstehen"
 
-
 <p align="center">
   <img align="center" width="300" src="./images/bild1.jpg">
 </p>
+
+---
 
 ---
 
