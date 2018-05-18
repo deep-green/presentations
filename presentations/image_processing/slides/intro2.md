@@ -11,30 +11,37 @@
 
 # Tasks
 
-### - digitale Bilder 
+### - digitale Bilder
+
  - erfassen
  - verarbeiten
  - analysieren
  - verstehen
+
 ### - Extrahieren
- - Daten
+
+- Daten
  - Informationen
  - Entscheidungen
 
 ---
 
 ## wissenschaftliche Disziplin:
+
 Theorie hinter künstlichen Systemen, die Informationen aus Bilder extrahieren
 
 ## technologische Disziplin:
+
 Theorien und Modelle -> Konstruktion maschinell sehender Systeme
 
 ## Werkzeuge:
+
 - Mathematik (Geometrie, linearer Algebra, Statistik, Optimierung und Funktionalanalysis)
 
 ---
 
 ## Anwendungsgebiete:
+
 - Industrie (Automatisierung, Qualitätskontrolle, Robotik)
 - Verkehrstechnik (Radarfalle (Kennzeichen), autonomes Fahren)
 - Sicherheitstechnik (Zutrittskontrolle, Erkennung von Gefahrensituationen)
@@ -62,12 +69,14 @@ Theorien und Modelle -> Konstruktion maschinell sehender Systeme
 ---
 
 ## Bildverarbeitung
+
 - Verarbeitung von Signalen = Bildern
 - meist zweidimensional
 - Ergebnis entweder Bild
 - oder Merkmale eines Bildes (Bilderkennung)
 
 ## Bilderkennung (image analysis)
+
 - Teilgebiet der Bildverarbeitung
 - Teilgebiet der Mustererkennung
 - Versuch, Objekte zu segmentieren
