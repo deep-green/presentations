@@ -8,21 +8,6 @@
 
 ---
 
-# Tasks
-
-### - digitale Bilder
-
- - erfassen
- - verarbeiten
- - analysieren
- - verstehen
-
-### - Extrahieren
-
- - Daten
- - Informationen
- - Entscheidungen
-
 ---
 
 ## wissenschaftliche Disziplin:
