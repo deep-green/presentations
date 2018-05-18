@@ -3,7 +3,7 @@
 ## ... oder "Bildverstehen"
 
 <p align="center">
-  <img align="center" width="800" src="./images/bild1.jpg">
+  <img align="center" width="900" src="./images/bild1.jpg">
 </p>
 
 ---
