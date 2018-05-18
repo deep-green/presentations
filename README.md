@@ -22,6 +22,7 @@ var sourceUrls = [
 - [Computer Vision](https://deep-green.github.io/presentations/presentations/image_processing)
 - [Alexa](https://deep-green.github.io/presentations/presentations/alexa)
 - [Backend/Standards](https://deep-green.github.io/presentations/presentations/backend)
+- [Google Assistant](https://deep-green.github.io/presentations/presentations/googleAssistant)
 
 ### Autor
 - [Patrick Reinke](https://github.com/reinkepatrick)
