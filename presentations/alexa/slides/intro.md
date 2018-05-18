@@ -4,6 +4,19 @@ class: center, middle
 
 ---
 
+## Agenda
+1. Allgemeines über Alexa
+2. Alexa Skills
+3. Alexa Backend
+
+
+---
+class: center, middle
+
+# Allgemeines über Alexa
+
+---
+
 ## Was ist Alexa Voice Service und wozu brauche ich es?
 - Sprachsteuerung für den alltäglichen Gebrauch
 - Fragen wie "Wie ist das Wetter?" oder "Wie ist der Verkehr?"

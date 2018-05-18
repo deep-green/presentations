@@ -1,14 +1,60 @@
-# Maschinelles Sehen - Computer Vision
+# Computer Vision - Maschinelles Sehen
 
-... oder "Bildverstehen" beschreibt im Allgemeinen die computergestützte Lösung von Aufgabenstellungen, die sich an den Fähigkeiten des menschlichen visuellen Systems orientieren. 
-[Wikipedia]
+## ... oder "Bildverstehen"
 
-## Teilgebiet der Informatik
+<p align="center">
+  <img align="center" width="750" src="./images/bild1.jpg">
+</p>
+
+---
+
+# Tasks
+
+<p align="right">
+  <img align="right" width="450" src="./images/katze.png">
+</p>
+
+### - digitale Bilder 
+
+ - erfassen
+ - verarbeiten
+ - analysieren
+ - verstehen
+
+### - Extrahieren
+
+ - Daten
+ - Informationen
+ - Entscheidungen
+
+---
+
+## wissenschaftliche Disziplin:
+Theorie hinter künstlichen Systemen, die Informationen aus Bilder extrahieren
+
+## technologische Disziplin:
+Theorien und Modelle -> Konstruktion maschinell sehender Systeme
+
+## Werkzeuge:
+- Mathematik (Geometrie, linearer Algebra, Statistik, Optimierung und Funktionalanalysis)
+
+---
 
 ## Anwendungsgebiete:
 - Industrie (Automatisierung, Qualitätskontrolle, Robotik)
 - Verkehrstechnik (Radarfalle (Kennzeichen), autonomes Fahren)
 - Sicherheitstechnik (Zutrittskontrolle, Erkennung von Gefahrensituationen)
+- Social Media (anstössige Bilder)
+
+### industrielle Umgebung vs. natürliche Umgebung
+
+<p align="left">
+  <img align="left" width="250" src="./images/tuer.jpg">
+</p>
+
+<p align="right">
+  <img align="right" width="250" src="./images/strasse.jpg">
+</p>
 
 ---
 
@@ -20,9 +66,6 @@
 ## kleiner Bereich:
 - Bilder tatsächlich verstehen bzw. interpretieren
 
-## Werkzeuge:
-- Mathematik (Geometrie, linearer Algebra, Statistik, Optimierung und Funktionalanalysis)
-
 ---
 
 # Bildverarbeitung - Image-Processing
@@ -32,23 +75,22 @@
 
 ---
 
-# Definitionen
-
 ## Bildverarbeitung
-Unter Bildverarbeitung versteht man in der Informatik und der Elektrotechnik die Verarbeitung von Signalen, die Bilder repräsentieren, beispielsweise Fotografien oder Einzelbilder aus Videos. Das Ergebnis einer Bildverarbeitung kann wiederum ein Bild sein oder auch eine Menge von Merkmalen des Eingabebildes (siehe Bilderkennung). In den meisten Fällen werden Bilder als zweidimensionales Signal betrachtet, so dass übliche Methoden aus der Signalverarbeitung angewandt werden können.
-[Wikipedia]
+- Verarbeitung von Signalen = Bildern
+- meist zweidimensional
+- Ergebnis entweder Bild
+- oder Merkmale eines Bildes (Bilderkennung)
+
+## Bilderkennung (image analysis)
+- Teilgebiet der Bildverarbeitung
+- Teilgebiet der Mustererkennung
+- Versuch, Objekte zu segmentieren
+- Segmente -> symbolische Beschreibung
+- keine Suche nach Zusammenhängen
 
 ---
 
-# Definitionen
-
-## Bilderkennung
-Bilderkennung (englisch image analysis) ist ein Teilgebiet der Mustererkennung und der Bildverarbeitung. In der Bilderkennung versucht man, Objekte in einem Bild zu segmentieren. Diesen wird eine symbolische Beschreibung zugewiesen, aber es wird nicht nach Zusammenhängen zwischen den Objekten gesucht, wie es in der Musteranalyse üblich ist. 
-[Wikipedia]
-
----
-
-# Aufgabenstellung
+# unsere Aufgabenstellung
 
 1. Spieler macht mit Kamera ein Bild seines Schachbretts
 2. Spieler sendet das Bild per HTTP-POST
