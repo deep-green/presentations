@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img align="center" width="700" src="./images/bild1.jpg">
+  <img align="center" width="300" src="./images/bild1.jpg">
 </p>
 
 ---
@@ -20,7 +20,7 @@
 
 ### - Extrahieren
 
-- Daten
+ - Daten
  - Informationen
  - Entscheidungen
 
@@ -62,9 +62,12 @@ Theorien und Modelle -> Konstruktion maschinell sehender Systeme
 ---
 
 # Bildverarbeitung - Image-Processing
+
 # Bilderkennung - Image-Analysis
 
-<img align="center" width="600" height="410" src="./images/titelbild.jpg">
+<p align="center">  
+  <img align="center" width="250" height="250" src="./images/titelbild.jpg">
+</p>
 
 ---
 
