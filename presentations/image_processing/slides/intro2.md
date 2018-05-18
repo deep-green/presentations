@@ -1,9 +1,9 @@
 # Computer Vision - Maschinelles Sehen
 
-... oder "Bildverstehen"
+## ... oder "Bildverstehen"
 
 <p align="center">
-  <img align="center" width="320" src="./images/bild1.jpg">
+  <img align="center" width="650" src="./images/bild1.jpg">
 </p>
 
 ---
