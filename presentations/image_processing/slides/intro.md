@@ -10,6 +10,10 @@
 
 # Tasks
 
+<p align="right">
+  <img align="right" width="650" src="./images/katze.png">
+</p>
+
 ### - digitale Bilder 
 
  - erfassen
