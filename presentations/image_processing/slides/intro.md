@@ -53,7 +53,7 @@ Theorien und Modelle -> Konstruktion maschinell sehender Systeme
 </p>
 
 <p align="right">
-  <img align="right" width="250" src="./images/strasse.png">
+  <img align="right" width="250" src="./images/strasse.jpg">
 </p>
 
 ---
