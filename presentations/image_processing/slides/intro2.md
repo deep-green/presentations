@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img align="center" width="320" src="./images/bild1.jpg">
+  <img align="center" width="700" src="./images/bild1.jpg">
 </p>
 
 
@@ -12,12 +12,12 @@
 
 # Tasks
 
-###- digitale Bilder 
+### - digitale Bilder 
  - erfassen
  - verarbeiten
  - analysieren
  - verstehen
-###- Extrahieren
+### - Extrahieren
  - Daten
  - Informationen
  - Entscheidungen
