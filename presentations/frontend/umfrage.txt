@@ -1,0 +1,139 @@
+#Umfrage - Was hast DU gelernt?
+
+
+Dieses Formular soll dazu dienen, Informationen für die "Lessons-Learned" Präsentation zu sammeln. Es geht nicht darum deine 
+Leistung zu Bewerten oder irgendjemanden bloß zustellen. Alle Informationen sind freiwillig bereitzustellen. Du musst nicht alles
+ beantworten, wenn du nicht möchtest. Mit dem aushändigen des ausgefüllten Dokumentes, stimmst du damit überein, das diese 
+Informationen ausgewertet und ggf. als Teil der Präsentation verwendet werden.
+
+
+
+##Allgemeines
+
+
+
+Ich war Teil des:  Frontends
+
+
+
+Außerdem habe ich Folgende (Neben)Tätigkeiten übernommen:
+
+
+
+
+##Theoretisches Wissen
+
+
+
+In diesem Punkt geht es um dein theoretisches Wissen z. B. Arbeitsweisen oder neue Programme. Hier geht es auch um das, was du in der
+ Vorlesung gelernt hast.
+
+Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+```
+
+Ich habe den Umgang mit Unreal gelernt
+Außerdem Schachregeln teilweise
+
+
+
+
+```
+
+
+
+
+##Technisches Wissen
+
+
+In diesen Punkt geht es um dein technisches Wissen z. B. Programmiersprachen, Serververwaltung etc.
+
+
+Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+
+
+```
+
+
+
+Ich habe vertieften Umgang mit C++ und der Unreal Engine gelernt
+Außerdem den Einsatz von SocketIO in der Unreal Engine und generell den Umgang mit SocketIO
+Ich habe etwas Modelling gelernt
+
+```
+
+
+
+##Teamarbeit
+
+
+In diesen Punkt geht es um die Teamarbeit (auch Teamleitung).
+
+
+Ich fand die Arbeit im Team
+
+
+- [ ] Sehr gut
+
+- [x] Gut
+
+- [ ] Okay
+
+- [ ] Naja
+
+- [ ] Schlecht
+
+
+
+Was hast du im Bezug auf Teamarbeit gelernt:
+
+```
+Unsere Kommunikation war sehr gut, wie ich finde.
+Die Gruppenaufteilung hätte etwas gleichmäßiger sein können
+
+
+
+```
+
+
+
+##Projektleitung
+
+
+Dieser Punkt dient lediglich als Feedback.
+
+
+Ich fand die Projektleitung
+
+
+- [ ] Sehr gut
+
+- [ ] Gut
+
+- [ ] Okay
+
+- [ ] Naja
+
+- [ ] Schlecht
+
+
+
+```
+(Hatten wir eine Projektleitung?)
+
+
+
+
+```
+
+
+
+##Sonstiges
+
+
+Falls du noch etwas Sagen möchtest:
+
+```
+
+
+
+```
