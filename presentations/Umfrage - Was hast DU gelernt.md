@@ -6,7 +6,7 @@ Dieses Formular soll dazu dienen Informationen für die "Lessons-Learned" Präse
 
 Name | Zuständig für | Mitgeholfen an
 --- | --- | ---
-Alexander Scharow | Google Voice, Datenank | Backend-logik
+Alexander Scharow | Google Voice, Datenbank | Backend-logik
 Yourname | place | holder
 
 ## Theoretisches Wissen
@@ -37,13 +37,14 @@ In diesen Punkt geht es um die Teamarbeit (auch Teamleitung).
 
 Ich fand die Arbeit im Team (Stern hinzufügen)
 
-- Sehr gut:     
-- Gut:          
-- Okay:         *
-- Naja:         
-- Schlecht:     
-
-- Enthalten:    
+Meinung | Stimmen |
+--- | --- |
+Sehr gut |  |
+Gut |  |
+Okay | * |
+Naja  |  |
+Schlecht |  |
+Enthalten |  |
 
 Was hast Du im Bezug auf Teamarbeit gelernt:
 
@@ -57,13 +58,14 @@ Dieser Punkt dient lediglich als Feedback.
 
 Ich fand die Projektleitung (Stern hinzufügen)
 
-- Sehr gut:     
-- Gut:          
-- Okay:         
-- Naja:         
-- Schlecht:     
-
-- Enhalten:     
+Meinung | Stimmen |
+--- | --- |
+Sehr gut |  |
+Gut |  |
+Okay |  |
+Naja  |  |
+Schlecht |  |
+Enthalten |  |
 
 ```
 
