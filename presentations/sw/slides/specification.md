@@ -134,8 +134,6 @@ __Framework(s):__
 __Methode(n) und Algorithmen:__
 - MiniMax-Algorithmus
 
----
-
 
 
 
