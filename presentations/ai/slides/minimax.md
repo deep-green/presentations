@@ -30,4 +30,4 @@ Theoretische Vorgehensweise des Algorithmus:
 ---
 
 # Beispiel
-![Suchbaum](images/mm-suchbaum.png)    
+![Suchbaum](images/mm-suchbaum.png)   
