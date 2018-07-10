@@ -22,11 +22,15 @@ __Methode(n) und Algorithmen:__
 
 ---
 
+<br>
+
 ### Klassisches neurales Netz
 
 <img src="images/neuro1.png" width="95%" />
 
 ---
+
+<br>
 
 ### Relevanter Code
 
