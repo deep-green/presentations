@@ -1,6 +1,6 @@
 
 class: center, middle
-# Künstliche Intelligenz
+# Künstliche Intelligenz 2
 
 ---
 

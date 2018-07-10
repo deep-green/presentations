@@ -15,5 +15,3 @@ __Framework(s):__
 - neon-bindings
 - mongoose
 - Jest
-
---- 

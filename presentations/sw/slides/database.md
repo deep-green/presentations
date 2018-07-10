@@ -7,6 +7,4 @@ class: center, middle
 ### Datenbank
 
 __Framework(s):__
-- mongoDB
-
-* Test 
+- mongoDB 

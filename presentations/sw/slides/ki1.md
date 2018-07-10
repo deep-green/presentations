@@ -15,5 +15,3 @@ __Framework(s):__
 __Methode(n) und Algorithmen:__
 - Reinforcment Learning 
 - Neuronale Netze
-
-* Test 
