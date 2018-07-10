@@ -15,6 +15,7 @@ __Framework(s):__
 - node.js
 - neon-bindings
 - Jest
+- socket.io
 
 __Methode(n) und Algorithmen:__
 - MiniMax-Algorithmus
