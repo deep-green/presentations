@@ -141,7 +141,7 @@ class: center, middle
 ---
 
 ## Protokoll
-### Client &#8667; Backend &emsp; 1/3
+### Client &#8667; Backend &emsp; 1/6
 
 #### makeMove &emsp; _Zum tätigen eines Zuges_
 
@@ -166,7 +166,7 @@ class: center, middle
 ---
 
 ## Protokoll
-### Client &#8667; Backend &emsp; 2/3
+### Client &#8667; Backend &emsp; 2/6
 
 #### reject &emsp; _Zum ablehnen von Einladungen_
 
@@ -189,7 +189,7 @@ class: center, middle
 ---
 
 ## Protokoll
-### Client &#8667; Backend &emsp; 3/3
+### Client &#8667; Backend &emsp; 3/6
 
 #### saveGame &emsp; _Zum speichern von Spielen_
 
@@ -214,7 +214,7 @@ class: center, middle
 ---
 
 ## Protokoll
-### Client &#8667; Backend &emsp; 4/3
+### Client &#8667; Backend &emsp; 4/6
 
 #### accept &emsp; _Zum annehmen eines Spiels_
 
@@ -238,7 +238,7 @@ class: center, middle
 ---
 
 ## Protokoll
-### Client &#8667; Backend &emsp; 5/3
+### Client &#8667; Backend &emsp; 5/6
 
 #### end &emsp; _Zum beenden eines Spiels unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
 
@@ -261,7 +261,7 @@ class: center, middle
 ---
 
 ## Protokoll
-### Client &#8667; Backend &emsp; 5/3
+### Client &#8667; Backend &emsp; 6/6
 
 #### viewGame &emsp; _abboniert das über ID_game vorgegebene Spiel_
 
