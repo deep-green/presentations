@@ -15,3 +15,5 @@ __Framework(s):__
 - neon-bindings
 - mongoose
 - Jest
+- socket.io
+- JSDoc

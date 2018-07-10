@@ -72,7 +72,7 @@ class: center, middle
 ## Protokoll
 ### Backend &#8667; Client &emsp; 1/3
 
-#### invitation &emsp; _Zum einladen von einem gegnerischen Spieler_
+#### invitation &emsp; _Zum Einladen eines gegnerischen Spielers_
 
 ```json
 {
@@ -81,7 +81,7 @@ class: center, middle
 }
 ```
 
-#### reject &emsp; _Zum ablehnen eines Zuges oder eines Bildes_
+#### reject &emsp; _Zum Ablehnen eines Zuges oder eines Bildes_
 
 ```json
 {
@@ -93,7 +93,7 @@ class: center, middle
 ## Protokoll
 ### Backend &#8667; Client &emsp; 2/3
 
-#### receive &emsp; _Zum teilen und/oder bestätigen eines Zuges und eines Bildes (color: false = white, true = black)_
+#### receive &emsp; _Zum Teilen und/oder Bestätigen eines Zuges und eines Bildes (color: false = white, true = black)_
 
 ```json
 {
@@ -107,7 +107,7 @@ class: center, middle
 }
 ```
 
-#### end &emsp; _Zum beenden eines Spielen, unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
+#### end &emsp; _Zum Beenden eines Spielen; unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
 
 ```json
 {
@@ -144,7 +144,7 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 1/6
 
-#### makeMove &emsp; _Zum tätigen eines Zuges_
+#### makeMove &emsp; _Zum Tätigen eines Zuges_
 
 ```json
 {
@@ -154,7 +154,7 @@ class: center, middle
 }
 ```
 
-#### rewind &emsp; _Zum rückgängig machen eines Zuges, optinale Angabe der Anzahl der Züge_
+#### rewind &emsp; _Zum Rückgängig machen eines Zuges; optional: Anzahl der Züge_
 
 ```json
 {
@@ -169,7 +169,7 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 2/6
 
-#### reject &emsp; _Zum ablehnen von Einladungen_
+#### reject &emsp; _Zum Ablehnen von Einladungen_
 
 ```json
 {
@@ -177,7 +177,7 @@ class: center, middle
 }
 ```
 
-#### image &emsp; _Zum hochladen einer Spielsituation per Bild_
+#### image &emsp; _Zum Hochladen einer Spielsituation per Bild_
 
 ```json
 {
@@ -192,7 +192,7 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 3/6
 
-#### saveGame &emsp; _Zum speichern von Spielen_
+#### saveGame &emsp; _Zum Speichern von Spielen_
 
 ```json
 {
@@ -201,7 +201,7 @@ class: center, middle
 }
 ```
 
-#### newGame &emsp; _Zum starten eines neuen Spiels_
+#### newGame &emsp; _Zum Starten eines neuen Spiels_
 
 ```json
 {
@@ -217,7 +217,7 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 4/6
 
-#### accept &emsp; _Zum annehmen eines Spiels_
+#### accept &emsp; _Zum Annehmen eines Spiels_
 
 ```json
 {
@@ -226,7 +226,7 @@ class: center, middle
 }
 ```
 
-#### saveTurn &emsp; _Zum markieren eines Zuges_
+#### saveTurn &emsp; _Zum Markieren eines Zuges_
 
 ```json
 {
@@ -241,7 +241,7 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 5/6
 
-#### end &emsp; _Zum beenden eines Spiels unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
+#### end &emsp; _Zum Beenden eines Spiels; unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
 
 ```json
 {
@@ -251,7 +251,7 @@ class: center, middle
 }
 ```
 
-#### getGames &emsp; _fordert alle aktiven, betrachtbaren Spiele an_
+#### getGames &emsp; _Fordert alle aktiven, betrachtbaren Spiele an_
 
 ```json
 {
@@ -264,7 +264,7 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 6/6
 
-#### viewGame &emsp; _abboniert das über ID_game vorgegebene Spiel_
+#### viewGame &emsp; _Abonniert das über ID_game vorgegebene Spiel_
 
 ```json
 {
@@ -272,14 +272,3 @@ class: center, middle
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 }
 ```
-
-#### getGames &emsp; _fordert alle aktiven, betrachtbaren Spiele an_
-
-```json
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
-}
-```
-
-
-
