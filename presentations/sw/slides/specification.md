@@ -107,7 +107,7 @@ class: center, middle
 }
 ```
 
-#### end &emsp; _Zum Beenden eines Spielen; unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
+#### end &emsp; _Zum Beenden eines Spiels; unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
 
 ```json
 {
@@ -122,7 +122,7 @@ class: center, middle
 ## Protokoll
 ### Backend &#8667; Client &emsp; 3/3
 
-#### games &emsp; _Antwort auf 'getGames'; Beinhaltet alle aktiven Spiele, die aktuelle FEN-Notation und die die höchste ELO-Zahl der beiden Spieler_
+#### games &emsp; _Antwort auf 'getGames'; beinhaltet alle aktiven Spiele, die aktuelle FEN-Notation und die höchste ELO-Zahl der beiden Spieler_
 
 ```json
 [
