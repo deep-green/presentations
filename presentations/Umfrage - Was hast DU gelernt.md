@@ -7,6 +7,7 @@ Dieses Formular soll dazu dienen Informationen für die "Lessons-Learned" Präse
 Name | Zuständig für | Mitgeholfen an
 --- | --- | ---
 Alexander Scharow | Google Voice, Datenbank | Backend-logik
+Patrick Reinke | KI | Zuggenerator, Backend, Server-Verwaltung
 Yourname | place | holder
 
 ## Theoretisches Wissen
@@ -19,6 +20,7 @@ Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 - Ressourcen besser einteilen
 - Teile des Projekts priotisieren
 - Teile des Projekts als erstes zu realisieren, weil andere darauf aufbauen
+- MiniMax-Algorithmus
 ```
 
 ## Technisches Wissen
@@ -28,7 +30,8 @@ In diesen Punkt geht es um Dein technisches Wissen z.B. Programmiersprachen, Ser
 Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 
 ```
-
+- Rust
+- neon-bindings
 ```
 
 ## Teamarbeit
@@ -43,7 +46,7 @@ Sehr gut |  |
 Gut |  |
 Okay | * |
 Naja  |  |
-Schlecht |  |
+Schlecht | * |
 Enthalten |  |
 
 Was hast Du im Bezug auf Teamarbeit gelernt:
@@ -63,7 +66,7 @@ Meinung | Stimmen |
 Sehr gut |  |
 Gut |  |
 Okay |  |
-Naja  |  |
+Naja  | * |
 Schlecht |  |
 Enthalten |  |
 
