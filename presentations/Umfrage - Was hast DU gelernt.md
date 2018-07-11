@@ -6,7 +6,7 @@ Dieses Formular soll dazu dienen Informationen für die "Lessons-Learned" Präse
 
 Name | Zuständig für | Mitgeholfen an
 --- | --- | ---
-Alexander Scharow | Google Voice, Datenbank | Backend-logik
+Alexander Scharow | Google Voice, Datenbank, Use Cases | Backend-logik
 Patrick Reinke | KI | Zuggenerator, Backend, Server-Verwaltung
 Yourname | place | holder
 
