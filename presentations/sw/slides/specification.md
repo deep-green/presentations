@@ -17,7 +17,8 @@ class: center, middle
 9. CV/Bilderkennung
 10. Datenbank
 11. Künstliche Intelligenz
-12. Lessons Learned
+12. Live Demo
+13. Lessons Learned
 
 ---
 
