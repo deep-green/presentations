@@ -15,19 +15,19 @@
 ---
 
 ## Unreal Engine Blueprints
-<img src="images/frontend/FigurenBewegenBP.png" width="95%" />
+<img src="images/frontend/FigurenBewegenBP.png" width="100%" />
 
 ---
 
-<img src="images/frontend/IndexPositionMakro.png" width="95%" />
+<img src="images/frontend/IndexPositionMakro.png" width="100%" />
 
 ---
 
-<img src="images/frontend/PositionMiddleMakro.png" width="95%" />
+<img src="images/frontend/PositionMiddleMakro.png" width="100%" />
 
 ---
 
-<img src="images/frontend/GetPositionMakro.png" width="95%" />
+<img src="images/frontend/GetPositionMakro.png" width="100%" />
 
 ---
 
