@@ -22,6 +22,13 @@ __Methode(n) und Algorithmen:__
 
 ---
 
+## Spielbrettbewertung
+### Künstliche Intelligenz 2
+
+<center><img src="images/minimax-evaluate.png" width="50%" /></center>
+
+---
+
 ## Code-Snippets
 ### Künstliche Intelligenz 2
 
