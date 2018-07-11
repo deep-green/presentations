@@ -8,6 +8,8 @@ Name | Zuständig für | Mitgeholfen an
 --- | --- | ---
 Alexander Scharow | Google Voice, Datenbank, Use Cases | Backend-logikdeep-green
 Patrick Reinke | KI | Zuggenerator, Backend, Server-Verwaltung
+Phillip Penner | KI | KIvsKI
+Luis Deutsch | KI | SocketIO, KIvsKI
 Yourname | place | holder
 
 ## Theoretisches Wissen
@@ -21,6 +23,8 @@ Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 - Teile des Projekts priotisieren
 - Teile des Projekts als erstes zu realisieren, weil andere darauf aufbauen
 - MiniMax-Algorithmus
+- Neuronale Netze
+- Maschinelles lernen
 ```
 
 ## Technisches Wissen
@@ -32,6 +36,9 @@ Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 - Rust
 - neon-bindings
+- Python
+- TensorFlow
+- Javascript
 ```
 
 ## Teamarbeit
@@ -43,7 +50,7 @@ Ich fand die Arbeit im Team (Stern hinzufügen)
 Meinung | Stimmen |
 --- | --- |
 Sehr gut |  |
-Gut |  |
+Gut | ** |
 Okay | * |
 Naja  |  |
 Schlecht | * |
@@ -65,7 +72,7 @@ Meinung | Stimmen |
 --- | --- |
 Sehr gut |  |
 Gut |  |
-Okay |  |
+Okay | ** |
 Naja  | * |
 Schlecht |  |
 Enthalten |  |
