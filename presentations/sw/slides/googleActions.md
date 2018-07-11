@@ -19,7 +19,6 @@ class: center, middle
 - Endgerät über Spracheingabe steuern
 - Release: 18. Mai 2016
 
-
 __Plattformen__
 - Android, Google Home, Wear OS, Android TV, Google Pixelbook, Smart Speakers, Headphones, Smart Displays, Google Allo, iOS
 
@@ -58,6 +57,7 @@ __Interesse__
 
 __Einfachheit__
 - Assistenten erstellen ohne Programmierkenntnisse
+- Einmal einstellen -> mit allen Google Geräten kompatibel
 
 ---
 
@@ -66,7 +66,7 @@ __Einfachheit__
 __Google Actions erstellen__
 - Dialogflow
 - Template
-- gactions (programmieren)
+- Google Actions SDK
 
 ---
 class: center, middle
@@ -75,22 +75,47 @@ class: center, middle
 
 ---
 
-## gactions
+## Google Actions SDK
 
-__googleActions Projekt erstellen__
+__Informationen__
+- Google Actions funktionieren über Google Account
+
+__Projekt erstellen__
 - gactions CLI herunterladen
 - Projekt initiieren
 - erstellt: action.json, package.json
 
 __Actions updaten__
+- lokale Dateien hochladen
+- gactions update --action_package PACKAGE_NAME --project PROJECT_NAME
 
 ---
 
-## Probleme (notizen, geänderte Tags)
+## Probleme
 
+__Technologie ist neu__
+- unausgereift
+- wenig Support, solutions
+- lange Arbeit den Fehler zu finden
+- stetige Änderungen
+- Inkonsistente / falsche docs
 
+__Beispiele__
+- Solution für meine Lösung: September 2017
+- V2 API Beta startete Ende 2017 (danach)
+
+---
+
+## Probleme
+
+__Gescheiterte Anläufe__
+- Dialogflow über Firebase: kein Zugriff auf externe Systeme
+- Dialogflow über bespoken.io: "Dialogflow V2 is not supported"
+- Template: Keine Möglichkeit zu programmieren
+- Google Action SDK über bespoken.io: "UnparseableJsonResponse"
 
 ---
 class: center, middle
 
 ## Live Demo
+## Zum späteren Zeitpunkt
