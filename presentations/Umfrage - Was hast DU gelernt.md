@@ -8,6 +8,7 @@ Name | Zuständig für | Mitgeholfen an
 --- | --- | ---
 Alexander Scharow | Google Voice, Datenbank, Use Cases | Backend-logikdeep-green
 Patrick Reinke | KI | Zuggenerator, Backend, Server-Verwaltung
+Marti Stuwe | KI | KI Testclient, Zuggenerator
 Phillip Penner | KI | KIvsKI
 Luis Deutsch | KI | SocketIO, KIvsKI
 Yourname | place | holder
@@ -22,6 +23,7 @@ Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 - MiniMax-Algorithmus
 - Neuronale Netze
 - Maschinelles lernen
+- Schachnotationen
 ```
 
 ## Technisches Wissen
@@ -47,7 +49,7 @@ Ich fand die Arbeit im Team (Stern hinzufügen)
 Meinung | Stimmen |
 --- | --- |
 Sehr gut |  |
-Gut | ** |
+Gut | *** |
 Okay | * |
 Naja  |  |
 Schlecht | * |
@@ -69,7 +71,7 @@ Meinung | Stimmen |
 --- | --- |
 Sehr gut |  |
 Gut |  |
-Okay | ** |
+Okay | *** |
 Naja  | * |
 Schlecht |  |
 Enthalten |  |
