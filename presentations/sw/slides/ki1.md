@@ -14,7 +14,7 @@ __Framework(s):__
 
 __Bibliotheken:__
 - python-chess
-- socketIO
+- socket.io
 
 __Methode(n) und Algorithmen:__
 - Supervised Learning 
