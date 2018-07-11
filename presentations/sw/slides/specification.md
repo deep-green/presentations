@@ -12,11 +12,12 @@ class: center, middle
 4. Datenbankschema
 5. Frontend
 6. Alexa
-7. Backend
-8. CV/Bilderkennung
-9. Datenbank
-10. Künstliche Intelligenz
-11. Lessons Learned
+7. Google Actions
+8. Backend
+9. CV/Bilderkennung
+10. Datenbank
+11. Künstliche Intelligenz
+12. Lessons Learned
 
 ---
 
