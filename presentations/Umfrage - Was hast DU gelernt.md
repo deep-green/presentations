@@ -19,9 +19,6 @@ In diesem Punkt geht es um Dein theoretisches Wissen, z.B. Arbeitsweisen oder ne
 Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 
 ```
-- Ressourcen besser einteilen
-- Teile des Projekts priotisieren
-- Teile des Projekts als erstes zu realisieren, weil andere darauf aufbauen
 - MiniMax-Algorithmus
 - Neuronale Netze
 - Maschinelles lernen
@@ -85,5 +82,8 @@ Enthalten |  |
 
 Falls Du noch etwas Sagen möchtest:
 ```
-
+- Ressourcen besser einteilen
+- Teile des Projekts priotisieren
+- Teile des Projekts als erstes zu realisieren, weil andere darauf aufbauen
+- Vorsichtig sein mit neuen Technologien (unausgereift, kein Support)
 ```
