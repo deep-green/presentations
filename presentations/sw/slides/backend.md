@@ -71,6 +71,7 @@ io.on('connection', (client) => {
     .
     .
 ```
+
 ---
 
 ## Code-Snippets
@@ -81,11 +82,13 @@ io.on('connection', (client) => {
 //client wants to create new game
     client.on('newGame', (data) => {
         if(dg_interface.check_newGame(data) === true) {
+
             setUserTokenIfNull(client.id, data.token);
             .
             .
             .
 ```
+
 ---
 
 ## Code-Snippets
@@ -195,7 +198,6 @@ function getFEN(buffer, pyModulePath) {
         ImageReader.stdout.on('data', (chunk) => {
             resultFEN = resultFEN + chunk;
         });
-
         .
         .
         .
