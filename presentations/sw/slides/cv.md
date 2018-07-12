@@ -59,10 +59,6 @@ def read_image_via_pipe():
 
 ```
 
-
-
-<center><img src="images/cv_middle_lines.png" width="75%" /></center>
-
 ---
 
 ## Workflow - Lage des Schachbretts
@@ -247,6 +243,13 @@ max_ranking_right : 27
 ### CV/Bilderkennung
 
 <center><img src="images/cv_template.png" width="100%" /></center>
+
+---
+
+## Workflow - Belegung des Schachbretts
+### CV/Bilderkennung
+
+<center><img src="images/templates.png" width="100%" /></center>
 
 ---
 
