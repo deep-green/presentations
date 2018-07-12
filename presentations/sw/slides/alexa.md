@@ -31,11 +31,11 @@ __Beispiel__
 ### Alexa
 
 __Intents:__
-- newGame
-- makeMove
-- whoseTurn
-- lastTurn
-- forfeit
+- newGame - Erstellt neues Spiel
+- makeMove - Zug machen, auf Zug warten
+- whoseTurn - Wer ist am Zug
+- lastTurn - Letzter Zug des Gegners
+- forfeit - Aufgabe
 
 ---
 
