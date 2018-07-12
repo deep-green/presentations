@@ -11,8 +11,12 @@ __Framework(s):__
 - mongoose
 
 ---
+class: center, middle
 
-<center><img src="images/deepGreen_ER_diag.png" width="50%" /></center>
+## ER Diagramm
+### Backend
+
+<center><img src="images/deepGreen_ER_diag.png" width="120%" /></center>
 
 ---
 
