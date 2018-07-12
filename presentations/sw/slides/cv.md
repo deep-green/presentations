@@ -157,7 +157,7 @@ def toolchain_02(given_image, already_used_angle):
 
 ```
 
-<center><img src="images/cv_debug_camera.png" width="95%" /></center>
+<center><img src="images/cv_debug_camera.png" width="30%" /></center>
 
 ---
 
