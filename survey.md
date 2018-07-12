@@ -15,7 +15,7 @@ Tobias Koppmann   | Backend, Datenbank                 | Integration Client-Komm
 Hendrik Schröder  | Zuschauermodus Web				         | Weboberfläche Zuschauermodus             |
 Nicola Kühnert    | Desktop Frontend                   | Unreal Engine                            |
 Julien Garb       | Alexa                              | Alexa                                    |
-Torsten Niemeier  | CV/Bilderkennung                   |                                          |
+Torsten Niemeier  | CV/Bilderkennung                   | nirgendwo                                |
 _Yourname_        | _place_                            | _holder_                                 |
 
 ### Theoretisches Wissen
@@ -174,8 +174,11 @@ Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 - teilweise verwirrende OpenCV-Dokumentation (insbesondere Flags)
 - extreme Abhängigkeit von zeitaufwändigen Try+Error-Verfahren (Random-Fotos, Parametervielfalt)
 - starke Verzögerungen wegen Hängenbleibens an Einzelproblemen, die für den Gesamtfortschritt unabdingbar zu lösen waren
-- Workload wäre eigentlich zu bewältigen gewesen, Problem war Lösungsfindung
-- bis zuletzt ganz Funktion quasi nutzlos, obwohl Fortschritte gemacht wurden
-- Template-Matching offenbar für unsere Aufgabenstellung ungeeignet, wegen Zeitmangel wurde keine andere Lösung mehr implementiert
+- Einzelproblem: Verfeinerung der Rotationsmatrix, extremer Zeitverlust wegen Versuchs, die Kamera-Matrix anzupassen
+- Einzelproblem: Grenzfindung Schachbrett, wegen Suche nach Threshold-Parametern zur sicheren Musterbestimmung 
+- Einzelproblem: Figurenerkennung mit Template-Matching (für mich unlösbar, nicht nachvollziehbare Ergebnisse aus OpenCV) 
+- Workload wäre eigentlich zu bewältigen gewesen, Problem war Lösungsfindung zu Einzelfunktionen
+- bis zuletzt ganze Funktion quasi nutzlos, obwohl Fortschritte gemacht wurden
+- Template-Matching offenbar für die Aufgabenstellung ungeeignet, wegen Zeitmangel wurde keine andere Lösung mehr implementiert
 ```
 
