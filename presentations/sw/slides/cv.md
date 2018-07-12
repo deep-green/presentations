@@ -15,26 +15,17 @@ __Bibliotheken:__
 
 ---
 
-<br>
-
 ## Methoden und Algorithmen
 ### CV/Bilderkennung
 
-- OpenCV.resize
-- OpenCV.cvtColor
-- OpenCV.GaussianBlur
-- OpenCV.bilateralFilter
-- OpenCV.createCLAHE
-- OpenCV.threshold
-- OpenCV.Canny
-- OpenCV.HoughLinesP
-- OpenCV.initCameraMatrix2D
-- OpenCV.solvePnP
-- OpenCV.Rodrigues
-- OpenCV.projectPoints
-- OpenCV.matchTemplate
-- OpenCV.minMaxLoc
-
+- Bildnormierung: OpenCV.resize, OpenCV.cvtColor
+- Noise-Reduction: OpenCV.GaussianBlur, OpenCV.bilateralFilter
+- Kontrasterhöhung: OpenCV.createCLAHE, OpenCV.threshold
+- Kantenerkennung: OpenCV.Canny
+- Linienerkennung: OpenCV.HoughLinesP
+- Lageberechnung: OpenCV.initCameraMatrix2D, OpenCV.solvePnP
+- Projektion: OpenCV.Rodrigues, OpenCV.projectPoints
+- Templateerkennung: OpenCV.matchTemplate, OpenCV.minMaxLoc
 
 ---
 
