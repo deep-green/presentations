@@ -67,17 +67,25 @@ io.on('connection', (client) => {
     client.on('disconnect', ()=> {
         delete activeConnections[client.id];
     });
-
-    //client wants to create new game
-    client.on('newGame', (data) => {
-        if(dg_interface.check_newGame(data) === true) {
-
-            setUserTokenIfNull(client.id, data.token);
     .
     .
     .
 ```
+---
 
+## Code-Snippets
+### Backend
+#### Verwaltung von Verbindungen
+
+```javascript
+//client wants to create new game
+    client.on('newGame', (data) => {
+        if(dg_interface.check_newGame(data) === true) {
+            setUserTokenIfNull(client.id, data.token);
+            .
+            .
+            .
+```
 ---
 
 ## Code-Snippets
@@ -188,6 +196,21 @@ function getFEN(buffer, pyModulePath) {
             resultFEN = resultFEN + chunk;
         });
 
+        .
+        .
+        .
+```
+
+---
+
+## Code-Snippets
+### Backend
+#### `dg_imageRecognition.getFEN` Funktion zur Nutzung der Bilderkennung
+
+```javascript
+        .
+        .
+        .
         // RESOLVE if stdout stream is read completely
         ImageReader.stdout.on('end', () => {
             resolve(String(resultFEN));
