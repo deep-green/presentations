@@ -36,7 +36,7 @@ class: center, middle
 - jedes Feld einzeln Ansprechbar
 - FEN --> Positionierung
 
-<img src="images/frontend/SchachbrettWEB.png" width="50%" />
+<img src="../images/frontend/SchachbrettWEB.png" width="50%" />
 ---
 
 ```js
