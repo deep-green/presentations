@@ -133,7 +133,7 @@ def toolchain_02(given_image, already_used_angle):
 ## Workflow
 ### Kameradaten
 
-<img src="cv_swing.png" width="95%" />
+<center><img src="images/cv_swing.png" width="95%" /></center>
 
 ---
 
@@ -162,3 +162,10 @@ def toolchain_02(given_image, already_used_angle):
     rotation_matrix = chess_math.rotation_matrix_from_euler_angles(alpha, beta, gamma)
 
 ```
+
+<center><img src="images/cv_debug_camera.png" width="95%" /></center>
+
+---
+
+## Kameradaten - Code-Snippets
+### CV/Bilderkennung
