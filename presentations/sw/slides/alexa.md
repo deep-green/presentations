@@ -36,7 +36,6 @@ __Intents:__
 - whoseTurn
 - lastTurn
 - forfeit
-- awaitMove
 
 ---
 
