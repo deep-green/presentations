@@ -28,7 +28,7 @@ __Beispiel__
 ---
 
 #### Intents
-<img src="images/alexa/intents.png" width="50%" />
+<img src="images/alexa/intents.png" width="50%" height="50%" />
 
 ---
 
