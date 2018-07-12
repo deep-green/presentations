@@ -39,7 +39,7 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 ```
 - Andere darauf hinzuweisen besser zu kommunizieren, wenn die Kommunikation mir nicht gefällt
 - Ressourcen besser einteilen
-- Teile des Projekts priotisieren
+- Teile des Projekts priorisieren
 - Teile des Projekts als erstes zu realisieren, weil andere darauf aufbauen
 - Andere Teilnehmer früher mitteilen, wenn Probleme vorliegen
 - Das Teambuilding benötigt Zeit -> die geringe gemeinsame Arbeitsdauer (1 Semester, Treffen in Abständen mehrerer Tage) reicht dafür kaum aus
@@ -64,7 +64,7 @@ Welche technischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 
 ```
 - Einbindung von SocketIO im Web und in C++
-- Java Script
+- JavaScript
 - JSON
 - Unreal Engine Blueprint System
 - Erstellen eines SSL Zertifikat
