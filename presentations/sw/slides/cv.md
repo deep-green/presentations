@@ -44,7 +44,7 @@ __Bibliotheken:__
 ## Workflow
 ### Lage des Schachbretts
 
-<img src="cv_middle_lines.png" width="95%" />
+<center><img src="images/cv_middle_lines.png" width="95%" /></center>
 
 ---
 
@@ -84,7 +84,7 @@ def toolchain_02(given_image, already_used_angle):
 ## Workflow
 ### Berechnung der Projektion
 
-<img src="cv_projection.png" width="95%" />
+<center><img src="images/cv_projection.png" width="95%" /></center>
 
 ---
 
