@@ -94,22 +94,66 @@ let moves: MoveList = Position::legals(&chess);
 
 for mov in moves {
     if is_maximising_player == true {
-        best_move = -9999.0;
-        best_move = 
-                max(best_move, 
-                    minimax(depth - 1, chess, alpha, beta, !is_maximising_player));
-        alpha = max(alpha, best_move);
+        // if its our move
     } else {
-        best_move = 9999.0;
-        best_move = 
-                min(best_move, 
-                    minimax(depth - 1, chess, alpha, beta, !is_maximising_player));
-        beta = min(beta, best_move);
+        // if its an enemy move
     }
 
     if beta <= alpha {
         return best_move;
     }
+}
+```
+
+---
+
+## Code-Snippets
+### Künstliche Intelligenz 2
+
+#### Funktion
+```rust
+minimax(i8, Chess, f64, f64, bool) -> f64
+        -> is_maximising_player == true
+```
+
+```rust
+if is_maximising_player == true {
+    best_move = -9999.0;
+
+    let checkmate_check = undo_chess.clone();
+    best_move = max(best_move, minimax(depth - 1, undo_chess, alpha, beta, !is_maximising_player));
+
+    if checkmate_check.is_checkmate() == true {
+        best_move = best_move + 500.0;
+    }
+
+    alpha = max(alpha, best_move);
+}
+```
+
+---
+
+## Code-Snippets
+### Künstliche Intelligenz 2
+
+#### Funktion
+```rust
+minimax(i8, Chess, f64, f64, bool) -> f64
+        -> is_maximising_player == false
+```
+
+```rust
+if is_maximising_player == false {
+    best_move = 9999.0;
+
+    let checkmate_check = undo_chess.clone();
+    best_move = min(best_move, minimax(depth - 1, undo_chess, alpha, beta, !is_maximising_player));
+
+    if checkmate_check.is_checkmate() == true {
+        best_move = best_move - 500.0;
+    }
+
+    beta = min(beta, best_move);
 }
 ```
 
