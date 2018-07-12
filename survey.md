@@ -11,13 +11,16 @@ Patrick Reinke    | KI                                 | Zuggenerator, Backend, 
 Marti Stuwe       | KI                                 | KI Testclient, Zuggenerator              |
 Phillip Penner    | KI                                 | KIvsKI                                   |
 Luis Deutsch      | KI                                 | SocketIO, KIvsKI                         |
+Tobias Koppmann   | Backend, Datenbank                 | Integration Client-Kommunikation         |
 _Yourname_        | _place_                            | _holder_                                 |
 
 ### Theoretisches Wissen
 Welche theoretischen Kenntnisse hast du im Laufe des Projektes allgemein gewonnen?
 
 ```
+- Schachregeln
 - Schachnotationen
+- ELO-Zahl als Bewertungswerkzeug
 ```
 
 ### Technisches Wissen
@@ -36,6 +39,8 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 - Teile des Projekts priotisieren
 - Teile des Projekts als erstes zu realisieren, weil andere darauf aufbauen
 - Andere Teilnehmer früher mitteilen, wenn Probleme vorliegen
+- Das Teambuilding benötigt Zeit -> die geringe gemeinsame Arbeitsdauer (1 Semester, Treffen in Abständen mehrerer Tage) reicht dafür kaum aus
+- Umstrukturierungen erschweren das Verfolgen des Projektziels -> "aus dem Tritt geraten"
 ```
 
 ## Frontend (Unreal, Alexa & Web)
@@ -64,19 +69,31 @@ Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 
 ```
+- Object-Document Mapping
+- Dokumentenbasierte Datenbanken
+- Vielgestaltigkeit der asynchronen Programmierung unter Node.js
 ```
 
 ### Technisches Wissen
 Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 
 ```
+- Javascript
+- mongoose
+- Promises, Callbacks für die asynchrone Programmierung unter Node.js / Javascript
+- Integration von auf unterschiedlichen Programmiersprachen basierenden Modulen unter Node.js
+- Jest Javascript Testing Framework für asynchrone Funktionen
+- Anwendung von Travis CI
 ```
 
 ### Probleme
 Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 
 ```
-
+- der Workload war für die beteiligten Personen zu groß zur Umsetzung aller Anforderungen
+- Komplexität von Travis CI im Zusammenspiel mit Node-Modulen, die in weitere Programmiersprachen entwickelt wurden -> kein TDD in gegebenem Zeitrahmen
+- Komplexität von Travis CI im Zusammenspiel mit socket.io (Client/Server-Mock up) -> kein TDD in gegebenem Zeitrahmen
+- Komplexität von Travis CI im Zusammenspiel mit Datenbankverbindungen (Client/Server-Mock up) -> kein TDD in gegebenem Zeitrahmen
 ```
 
 ## Künstliche Intelligenz (KI1 & KI2)
