@@ -39,8 +39,6 @@ class DEEPGREEN_API ULoginWidget : public UUserWidget
 ## Unreal Engine Blueprints
 ### Frontend - Unreal Engine
 
-
-### Die Kunst hinter den Farben
 - Weiß -> Programmablauf
 - Gelb -> Vektoren
 - Türkis -> Integer
