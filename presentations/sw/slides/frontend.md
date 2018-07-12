@@ -1,7 +1,10 @@
 class: center, middle
 # Frontend - Unreal Engine
 
-### Technologien
+---
+
+## Technologien
+### Frontend - Unreal Engine
 - Unreal Engine Version 4.19.2
 - SocketIO Plugin für Unreal v0.8.0
 - Visual Studio 2017
@@ -49,21 +52,21 @@ class DEEPGREEN_API ULoginWidget : public UUserWidget
 ---
 ## FEN String Konvertierung
 ### Frontend - Unreal Engine
-<img src="images/frontend/FENtoArray.png" width="100%" />
+<img src="images/frontend/FENtoArray.PNG" width="100%" />
 
 ---
 ## FEN String zu Array
 ### Frontend - Unreal Engine
-<img src="images/frontend/FENtoArray1.png" width="100%" />
+<img src="images/frontend/FENtoArray1.PNG" width="100%" />
 
 ---
 ## FEN String leere Felder
 ### Frontend - Unreal Engine
-<img src="images/frontend/FENtoArray2.png" width="100%" />
+<img src="images/frontend/FENtoArray2.PNG" width="100%" />
 
 ---
 ## FEN String Figuren
 ### Frontend - Unreal Engine
-<img src="images/frontend/FENtoArray3.png" width="100%" />
+<img src="images/frontend/FENtoArray3.PNG" width="100%" />
 
 
