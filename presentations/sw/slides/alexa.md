@@ -19,10 +19,16 @@ __Framework(s):__
 ### Alexa
 
 #### Aufrufen des Alexa Skills
-<img src="images/alexa/invocation.png" width="100%" />
+__Invocation Name:__
+- mein schachspiel
+
+__Beispiel__
+- Alexa öffne mein Schachspiel
+
+---
 
 #### Intents
-<img src="images/alexa/intents.png" width="100%" />
+<img src="images/alexa/intents.png" width="80%" />
 
 ---
 
