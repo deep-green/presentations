@@ -24,7 +24,8 @@ __Methode(n) und Algorithmen:__
 
 <br>
 
-### Klassisches neurales Netz
+## Klassisches neurales Netz
+### Künstliche Intelligenz 1
 
 <img src="images/neuro1.png" width="95%" />
 
@@ -32,9 +33,8 @@ __Methode(n) und Algorithmen:__
 
 <br>
 
-### Relevanter Code
-
-#### Initialisierung von Variablen für das neurale Netz
+## Code-Snippets
+### Künstliche Intelligenz 1
 
 ```python
 
@@ -67,7 +67,8 @@ biases = {
 
 ---
 
-#### Verknüpfung der logischen Entitäten
+## Code-Snippets
+### Künstliche Intelligenz 1
 
 ```python
 
@@ -91,7 +92,8 @@ def neural_net(x):
 
 ---
 
-#### Training des neuralen Netzes
+## Code-Snippets
+### Künstliche Intelligenz 1
 
 ```python
 
@@ -126,7 +128,8 @@ def train_neural_network(x):
 
 ---
 
-#### SocketIO Protokoll-Konformität
+## Code-Snippets
+### Künstliche Intelligenz 1
 
 ```python
 
