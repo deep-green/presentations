@@ -31,6 +31,7 @@ Welche technischen Kenntnisse hast du im Laufe des Projektes allgemein gewonnen?
 
 ```
 - socket.io
+- google Actions
 ```
 
 ### Probleme
@@ -46,7 +47,7 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 - Umstrukturierungen erschweren das Verfolgen des Projektziels -> "aus dem Tritt geraten"
 ```
 
-## Frontend (Unreal, Alexa & Web)
+## Frontend (Unreal, Alexa, Google Actions & Web)
 
 ### Theoretisches Wissen
 Welche theoretischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
@@ -57,6 +58,7 @@ Welche theoretischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 - JSON Objekte korrekt parsen
 - FEN-Notation parsen und korrekt ausgeben
 - Umgang und Programmierung von Alexa
+- Umgang und Programmierung von Google Actions
 ```
 
 ### Technisches Wissen
