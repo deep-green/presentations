@@ -61,7 +61,7 @@ Welche technischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 ```
 - Einbindung von SocketIO im Web
 - Java Script
-- JASON
+- JSON
 ```
 
 ### Probleme
