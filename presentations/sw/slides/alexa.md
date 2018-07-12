@@ -21,6 +21,7 @@ __Framework(s):__
 #### Aufrufen des Alexa Skills
 <img src="images/alexa/invocation.png" width="100%" />
 
+#### Intents
 <img src="images/alexa/intents.png" width="100%" />
 
 ---
