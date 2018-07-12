@@ -19,13 +19,14 @@ class: center, middle
 
 # Anzeige der Figuren
 
-weiß				schwarz
-&#9817 Bauer		&#9823 Bauer
-&#9814 Turm			&#9820 Turm
-&#9816 Springer		&#9822 Springer
-&#9815 Läufer		&#9821 Läufer
-&#9813 Dame			&#9819 Dame
-&#9812 König		&#9818 König
+|weiß			|schwarz|
+|--			|--|
+|&#9817 Bauer		|&#9823 Bauer|
+|&#9814 Turm		|&#9820 Turm|
+|&#9816 Springer	|&#9822 Springer|
+|&#9815 Läufer		|&#9821 Läufer|
+|&#9813 Dame		|&#9819 Dame|
+|&#9812 König		|&#9818 König|
 
 ---
 
