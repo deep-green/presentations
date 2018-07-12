@@ -79,8 +79,8 @@ def toolchain_02(given_image, already_used_angle):
 
 ---
 
-## Workflow
-### Berechnung der Projektion
+## Workflow - Berechnung der Projektion
+### CV/Bilderkennung
 
 <center><img src="images/cv_projection.png" width="80%" /></center>
 
@@ -122,23 +122,23 @@ def toolchain_02(given_image, already_used_angle):
 
 ---
 
-## Projektion - Code-Snippets
+## Projektion - Verfeinerung
 ### CV/Bilderkennung
 
 <center><img src="images/cv_raster.png" width="75%" /></center>
 
 ---
 
-## Workflow
-### Kameradaten
+## Workflow - Ermittlung der Kameradaten
+### CV/Bilderkennung
 
 <center><img src="images/cv_swing.png" width="100%" /></center>
 
 
 ---
 
-## Workflow
-### Kameradaten
+## Kameradaten - Code-Snippets
+### CV/Bilderkennung
 
 ```python
 
