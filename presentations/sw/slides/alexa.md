@@ -79,5 +79,3 @@ exports.forfeit = function (game) {
   });
 }
 ```
-
----
