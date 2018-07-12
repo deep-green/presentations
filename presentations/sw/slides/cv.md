@@ -241,6 +241,13 @@ max_ranking_right : 27
 
 ---
 
+## Workflow - Grenzen des Schachbretts
+### CV/Bilderkennung
+
+<center><img src="images/cv_corners.png" width="75%" /></center>
+
+---
+
 ## Workflow - Belegung des Schachbretts
 ### CV/Bilderkennung
 
