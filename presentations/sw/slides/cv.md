@@ -44,7 +44,7 @@ __Bibliotheken:__
 ## Workflow
 ### Lage des Schachbretts
 
-<center><img src="images/cv_middle_lines.png" width="80%" /></center>
+<center><img src="images/cv_middle_lines.png" width="75%" /></center>
 
 ---
 
@@ -117,20 +117,23 @@ def toolchain_02(given_image, already_used_angle):
     image_points = np.array(camera_points, np.float32)
     (success, rotation_vector, translation_vector) = cv2.solvePnP(model_points, image_points, initial_camera_matrix, dist_coeffs, flags=cv2.SOLVEPNP_ITERATIVE)
 
-    # calculate rotation matrix out of the rotation vector via Rodrigues
-    rmat = cv2.Rodrigues(rotation_vector)[0]
-
-    # calculate the Euler angles from the rotation matrix
-    beta = -math.acos(rmat[2, 2])
-    alpha = math.acos(rmat[2, 1] / math.sin(beta))
-    if (abs(math.sin(alpha) * math.sin(beta) - rmat[2, 0]) > 0.0001):
-        alpha = alpha
-    gamma = math.asin(rmat[0, 2] / math.sin(beta))
-    if (abs(-1 * math.sin(beta) * math.cos(gamma) - rmat[1, 2]) > 0.0001):
-        gamma = math.pi - gamma
-    rotation_matrix = chess_math.rotation_matrix_from_euler_angles(alpha, beta, gamma)
 
 ```
+
+---
+
+## Projektion - Code-Snippets
+### CV/Bilderkennung
+
+<center><img src="images/cv_raster.png" width="75%" /></center>
+
+---
+
+## Workflow
+### Kameradaten
+
+<center><img src="images/cv_swing.png" width="100%" /></center>
+
 
 ---
 
