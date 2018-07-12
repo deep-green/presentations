@@ -1,5 +1,9 @@
+### [Software Projekt Präsentation](https://deep-green.github.io/presentations/presentations/sw)
+
+---
+
 # Voraussetzungen
-* [Python3](https://www.python.org/)
+* [Python3](https://www.python.org/), anderer Webserver oder [Github-Pages](https://pages.github.com/)
 
 # How to Use
 1. Repository klonen (`git clone https://github.com/deep-green/presentations.git)`
@@ -19,6 +23,11 @@ var sourceUrls = [
 
 # Präsentationen
 - [Künstliche Intelligenz](https://deep-green.github.io/presentations/presentations/ai)
+- [Computer Vision](https://deep-green.github.io/presentations/presentations/image_processing)
+- [Alexa](https://deep-green.github.io/presentations/presentations/alexa)
+- [Backend/Standards](https://deep-green.github.io/presentations/presentations/backend)
+- [Google Assistant](https://deep-green.github.io/presentations/presentations/googleAssistant)
 
 ### Autor
-* [Patrick Reinke](https://github.com/reinkepatrick)
+- [Patrick Reinke](https://github.com/reinkepatrick)
+- [Torsten Niemeier](https://github.com/towini)

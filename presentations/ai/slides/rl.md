@@ -22,4 +22,8 @@ class: center, middle
 * Er gelangt in einen Folgezustand und erhält eine Belohnung
 * Verschiedene Algorithmen zum Bewerten von Situationen und Aktionen z.B. Neuronale Netze
 
-_Bild_
+---
+
+## Reinforcement Learning
+![alt text](images/reinforcement-learning.png "RL")
+###### [Quelle: Statworx](https://www.statworx.com/de/blog/einfuehrung-in-reinforcement-learning-wenn-maschinen-wie-menschen-lernen/)

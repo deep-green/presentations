@@ -4,8 +4,12 @@ class: center, middle
 
 ---
 
-# Agenda
+## Künstliche Intelligenz
+![alt text](images/ml.png "ML")
 
+---
+
+# Agenda
 1. Was ist künstliche Intelligenz?
 2. MiniMax Algorithmus
 3. Reinforcement Learning

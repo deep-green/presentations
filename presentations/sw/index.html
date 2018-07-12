@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Künstliche Intelligenz</title>
+    <title>Software Projekt Präsentation</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../../includes/remark.less">
     <style>
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
         @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
         @import url('https://fonts.googleapis.com/css?family=Open+Sans::400,700,400italic');
-
         body { font-family: 'Open Sans', sans-serif; }
         h1, h2, h3 {
             font-family: 'Yanone Kaffeesatz', sans-serif;
             font-weight: normal;
         }
-
         .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono', sans-serif; }
-
         .red {
             color: #EC4758;
         }
-
         .bold {
             font-weight: bold;
         }
-
         .remark-slide-content ul li,
         .remark-slide-content ol li {
             padding: 6px 0;
         }
-
         img {
             max-width: 100%;
+        }
+        h3 {
+            margin-top: -37.350px;
+        }
+
+        ul {
+            margin-top: -20px;
+        }
+
+        th, td {
+            padding: 3px 10px;
+        }
+
+        div.remark-slide-content {
+            background: url("images/background.png");
         }
     </style>
 </head>
@@ -41,11 +51,16 @@
     /* Source: https://github.com/gnab/remark/issues/150#issuecomment-59424315 */
 
     var sourceUrls = [
-        'slides/intro.md',
-        'slides/minimax.md',
-        'slides/rl.md',
-        'slides/ann.md',
-        'slides/tensorflow.md',
+        'slides/specification.md',
+        'slides/frontend.md',
+        'slides/alexa.md',
+        'slides/googleActions.md',
+        'slides/backend.md',
+        'slides/cv.md',
+        'slides/database.md',
+        'slides/ki1.md',
+        'slides/ki2.md',
+        'slides/lessonslearned.md'
     ];
 
     var xmlhttp = new XMLHttpRequest();
@@ -66,6 +81,8 @@
     }
 
     var slideshow = remark.create({
+        highlightLanguages: ['javascript', 'json'],
+        highlightStyle: 'darcula',
         source: source
     });
 </script>
