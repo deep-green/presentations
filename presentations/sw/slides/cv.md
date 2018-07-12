@@ -33,13 +33,22 @@ __Bibliotheken:__
 ### CV/Bilderkennung
 
 - Erkennen der Lage des Schachbretts
+- Berechnung der Projektion und der Kameradaten
+- Erkennen des Musters des Schachbretts
 - Erkennen der Grenzen des Schachbretts
+- Erkennen der Belegung des Schachbretts
+- Erkennen der Figuren
 
+---
 
+## Workflow
+### Lage des Schachbretts
 
-<br>
+<img src="cv_middle_lines.png" width="95%" />
 
-## Code-Snippets
+---
+
+## Lage des Schachbretts - Code-Snippets
 ### CV/Bilderkennung
 
 ```python
@@ -67,5 +76,32 @@ def toolchain_02(given_image, already_used_angle):
         cv2.imshow("Debug Window", image_result)
         cv2.waitKey(debug_delay_time)
     return line_list_vertical
+
+```
+
+---
+
+## Workflow
+### Berechnung der Projektion
+
+<img src="cv_projection.png" width="95%" />
+
+---
+
+## Projektion - Code-Snippets
+### CV/Bilderkennung
+
+```python
+
+    # define world coordinates of the chess field
+    chess_field_size = 50.0
+    world_point_1 = [0.0, 0.0, 0.0]
+    world_point_2 = [chess_field_size, 0.0, 0.0]
+    world_point_3 = [0.0, chess_field_size, 0.0]
+    world_point_4 = [chess_field_size, chess_field_size, 0.0]
+    world_points = [world_point_1, world_point_2, world_point_3, world_point_4]
+
+    # get initial camera matrix
+    initial_camera_matrix = chess_math.get_camera_matrix(camera_points, chess_field_size, image_width, image_height)
 
 ```
