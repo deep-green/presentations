@@ -52,7 +52,6 @@ __Bibliotheken:__
 ### CV/Bilderkennung
 
 ```python
-
 # toolchain to get best verticals
 def toolchain_02(given_image, already_used_angle):
     image_original = given_image
@@ -76,7 +75,6 @@ def toolchain_02(given_image, already_used_angle):
         cv2.imshow("Debug Window", image_result)
         cv2.waitKey(debug_delay_time)
     return line_list_vertical
-
 ```
 
 ---
@@ -113,35 +111,6 @@ def toolchain_02(given_image, already_used_angle):
 
 ```python
 
-    # calculate rotation matrix out of the rotation vector via Rodrigues
-    rmat = cv2.Rodrigues(rotation_vector)[0]
-
-    # calculate the Euler angles from the rotation matrix
-    beta = -math.acos(rmat[2, 2])
-    alpha = math.acos(rmat[2, 1] / math.sin(beta))
-    if (abs(math.sin(alpha) * math.sin(beta) - rmat[2, 0]) > 0.0001):
-        alpha = alpha
-    gamma = math.asin(rmat[0, 2] / math.sin(beta))
-    if (abs(-1 * math.sin(beta) * math.cos(gamma) - rmat[1, 2]) > 0.0001):
-        gamma = math.pi - gamma
-    rotation_matrix = chess_math.rotation_matrix_from_euler_angles(alpha, beta, gamma)
-    
-```
-
----
-
-## Workflow
-### Kameradaten
-
-<center><img src="images/cv_swing.png" width="95%" /></center>
-
----
-
-## Kameradaten - Code-Snippets
-### CV/Bilderkennung
-
-```python
-
     # calculate rotation vector and translation vector via solvePnP
     dist_coeffs = np.zeros((4, 1))  # Assuming no lens distortion
     model_points = np.array(world_points,np.float32)
@@ -163,7 +132,35 @@ def toolchain_02(given_image, already_used_angle):
 
 ```
 
+---
+
+## Workflow
+### Kameradaten
+
+```python
+
+    # calculate rotation matrix out of the rotation vector via Rodrigues
+    rmat = cv2.Rodrigues(rotation_vector)[0]
+
+    # calculate the Euler angles from the rotation matrix
+    beta = -math.acos(rmat[2, 2])
+    alpha = math.acos(rmat[2, 1] / math.sin(beta))
+    if (abs(math.sin(alpha) * math.sin(beta) - rmat[2, 0]) > 0.0001):
+        alpha = alpha
+    gamma = math.asin(rmat[0, 2] / math.sin(beta))
+    if (abs(-1 * math.sin(beta) * math.cos(gamma) - rmat[1, 2]) > 0.0001):
+        gamma = math.pi - gamma
+    rotation_matrix = chess_math.rotation_matrix_from_euler_angles(alpha, beta, gamma)
+
+```
+
 <center><img src="images/cv_debug_camera.png" width="95%" /></center>
+
+---
+
+## Kameradaten - Code-Snippets
+### CV/Bilderkennung
+
 
 ---
 
