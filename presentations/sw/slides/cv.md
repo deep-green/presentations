@@ -32,10 +32,36 @@ __Bibliotheken:__
 ## Workflow
 ### CV/Bilderkennung
 
+- Empfangen des Bildes
 - Erkennen der Lage des Schachbretts
 - Berechnung der Projektion und der Kameradaten
 - Erkennen der Grenzen des Schachbretts
 - Erkennen der Belegung des Schachbretts
+- Rückgabe des Ergebnisses
+
+---
+
+## Workflow - Empfangen des Bildes
+### CV/Bilderkennung
+
+```python
+
+# the function reads the image via pipe
+def read_image_via_pipe():
+    # get the base64 image through the pipe
+    data = sys.stdin.readline()
+    # decode image
+    image = base64.b64decode(data)
+    nparr = np.fromstring(image, np.uint8)
+    img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+    # return the received image
+    return img
+
+```
+
+
+
+<center><img src="images/cv_middle_lines.png" width="75%" /></center>
 
 ---
 
