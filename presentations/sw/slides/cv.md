@@ -105,3 +105,60 @@ def toolchain_02(given_image, already_used_angle):
     initial_camera_matrix = chess_math.get_camera_matrix(camera_points, chess_field_size, image_width, image_height)
 
 ```
+
+---
+
+## Projektion - Code-Snippets
+### CV/Bilderkennung
+
+```python
+
+    # calculate rotation matrix out of the rotation vector via Rodrigues
+    rmat = cv2.Rodrigues(rotation_vector)[0]
+
+    # calculate the Euler angles from the rotation matrix
+    beta = -math.acos(rmat[2, 2])
+    alpha = math.acos(rmat[2, 1] / math.sin(beta))
+    if (abs(math.sin(alpha) * math.sin(beta) - rmat[2, 0]) > 0.0001):
+        alpha = alpha
+    gamma = math.asin(rmat[0, 2] / math.sin(beta))
+    if (abs(-1 * math.sin(beta) * math.cos(gamma) - rmat[1, 2]) > 0.0001):
+        gamma = math.pi - gamma
+    rotation_matrix = chess_math.rotation_matrix_from_euler_angles(alpha, beta, gamma)
+    
+```
+
+---
+
+## Workflow
+### Kameradaten
+
+<img src="cv_swing.png" width="95%" />
+
+---
+
+## Kameradaten - Code-Snippets
+### CV/Bilderkennung
+
+```python
+
+    # calculate rotation vector and translation vector via solvePnP
+    dist_coeffs = np.zeros((4, 1))  # Assuming no lens distortion
+    model_points = np.array(world_points,np.float32)
+    image_points = np.array(camera_points, np.float32)
+    (success, rotation_vector, translation_vector) = cv2.solvePnP(model_points, image_points, initial_camera_matrix, dist_coeffs, flags=cv2.SOLVEPNP_ITERATIVE)
+
+    # calculate rotation matrix out of the rotation vector via Rodrigues
+    rmat = cv2.Rodrigues(rotation_vector)[0]
+
+    # calculate the Euler angles from the rotation matrix
+    beta = -math.acos(rmat[2, 2])
+    alpha = math.acos(rmat[2, 1] / math.sin(beta))
+    if (abs(math.sin(alpha) * math.sin(beta) - rmat[2, 0]) > 0.0001):
+        alpha = alpha
+    gamma = math.asin(rmat[0, 2] / math.sin(beta))
+    if (abs(-1 * math.sin(beta) * math.cos(gamma) - rmat[1, 2]) > 0.0001):
+        gamma = math.pi - gamma
+    rotation_matrix = chess_math.rotation_matrix_from_euler_angles(alpha, beta, gamma)
+
+```
