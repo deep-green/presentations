@@ -11,6 +11,7 @@ Patrick Reinke    | KI                                 | Zuggenerator, Backend, 
 Marti Stuwe       | KI                                 | KI Testclient, Zuggenerator              |
 Phillip Penner    | KI                                 | KIvsKI                                   |
 Luis Deutsch      | KI                                 | SocketIO, KIvsKI                         |
+Hendrik Schröder  | Zuschauermodus Web				   | Weboberfläche Zuschauermodus
 _Yourname_        | _place_                            | _holder_                                 |
 
 ### Theoretisches Wissen
@@ -44,18 +45,25 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 Welche theoretischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 
 ```
+- Nutzung von SocketIO im Web
+- JSON Objekte korrekt parsen
+- FEN-Notation parsen und korrekt ausgeben
 ```
 
 ### Technisches Wissen
 Welche technischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 
 ```
+- Einbindung von SocketIO im Web
+- Java Script
+- JASON
 ```
 
 ### Probleme
 Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 
 ```
+- Bei der visuellen Ausgabe für eine FEN-Notation im Web auf korrekte Variabelnamen achten
 ```
 
 ## Backend (Logik & Datenbank)
