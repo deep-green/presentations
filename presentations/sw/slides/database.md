@@ -7,7 +7,8 @@ class: center, middle
 ### Datenbank
 
 __Framework(s):__
-- mongoDB 
+- mongoDB
+- mongoose
 
 ---
 
