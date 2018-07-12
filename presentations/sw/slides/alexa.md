@@ -27,9 +27,16 @@ __Beispiel__
 
 ---
 
-#### Intents
+## Intents
+### Alexa
 
-<img src="images/alexa/intents.png" width="50%" />
+__Intents:__
+- newGame
+- makeMove
+- whoseTurn
+- lastTurn
+- forfeit
+- awaitMove
 
 ---
 
