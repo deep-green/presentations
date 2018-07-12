@@ -8,6 +8,7 @@ Name | Zuständig für | Mitgeholfen an
 --- | --- | ---
 Alexander Scharow | Google Voice, Datenbank | Backend-logik
 Nicola Kühnert | Unreal Engine | Frontend
+Hendrik Schröder | Web Oberfläche | Zuschauermodus
 
 ## Theoretisches Wissen
 
@@ -18,6 +19,7 @@ Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 - Ich habe generell den Umgang mit der Unreal Engine und dessen Blueprint System gelernt
 - Die Nutzung des SocketIO Plugins für Unreal
+- Die Nutzung des SocketIO im Web Umfeld
 - Das Bearbeiten und Exportieren von 3D Objekten in Maya
 ```
 
@@ -29,6 +31,7 @@ Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 
 ```
 - Ich habe einen Einblick in den Umgang mit SocketIO in C++ erhalten
+- Anwendung von SocketIO im Web Umfeld
 - Das Arbeiten mit C++ Makros fällt mir nun einfacher
 ```
 
@@ -41,7 +44,7 @@ Ich fand die Arbeit im Team (Stern hinzufügen)
 Meinung | Stimmen |
 --- | --- |
 Sehr gut |  |
-Gut | * |
+Gut | ** |
 Okay |  |
 Naja  |  |
 Schlecht |  |
@@ -71,6 +74,7 @@ Enthalten |  |
 ```
 Haben wir je eine Projektleitung gewählt?
 Generell finde ich jedoch, dass wir alles gank okay gemanaged haben. Aufgaben, die keiner Gruppe fest zugewiesen werden konnten, wurden recht gleichmäßig aufgeteilt.
+Eher Demokratische Projektleitung durch Gemeinschaftliche Entscheidungen
 ```
 
 ## Sonstiges
