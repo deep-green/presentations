@@ -15,6 +15,7 @@ Tobias Koppmann   | Backend, Datenbank                 | Integration Client-Komm
 Hendrik Schröder  | Zuschauermodus Web				         | Weboberfläche Zuschauermodus             |
 Nicola Kühnert    | Desktop Frontend                   | Unreal Engine                            |
 Julien Garb       | Alexa                              | Alexa                                    |
+Torsten Niemeier  | CV/Bilderkennung                   | nirgendwo                                |
 _Yourname_        | _place_                            | _holder_                                 |
 
 ### Theoretisches Wissen
@@ -45,6 +46,7 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 - Andere Teilnehmer früher mitteilen, wenn Probleme vorliegen
 - Das Teambuilding benötigt Zeit -> die geringe gemeinsame Arbeitsdauer (1 Semester, Treffen in Abständen mehrerer Tage) reicht dafür kaum aus
 - Umstrukturierungen erschweren das Verfolgen des Projektziels -> "aus dem Tritt geraten"
+
 ```
 
 ## Frontend (Unreal, Alexa, Google Actions & Web)
@@ -141,3 +143,44 @@ Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 - Schlecht dokumentierte Rust-Module
 - Schlechte neon-bindings Dokumentation
 ```
+
+## CV/Bilderkennung
+
+### Theoretisches Wissen
+Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+
+```
+- FEN-Notation
+- Staunton-Figuren
+- Lageerkennung (Rotationen, Translationen)
+- Rotationsvektor
+- Rodrigues-Formel
+- Euler Winkel
+- Matrizenoperationen
+```
+
+### Technisches Wissen
+Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+
+```
+- Python (eigentliche Implementierung)
+- C++ (Testprogramm zur Toolchain der Bildauswertung)
+- Javascript (geringfügig wegen der Bildübergabe)
+- Hintergründe Pose-Estimation und Template-Matching
+```
+
+### Probleme
+Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
+
+```
+- teilweise verwirrende OpenCV-Dokumentation (insbesondere Flags)
+- extreme Abhängigkeit von zeitaufwändigen Try+Error-Verfahren (Random-Fotos, Parametervielfalt)
+- starke Verzögerungen wegen Hängenbleibens an Einzelproblemen, die für den Gesamtfortschritt unabdingbar zu lösen waren
+- Einzelproblem: Verfeinerung der Rotationsmatrix, extremer Zeitverlust wegen Versuchs, die Kamera-Matrix anzupassen
+- Einzelproblem: Grenzfindung Schachbrett, wegen Suche nach Threshold-Parametern zur sicheren Musterbestimmung 
+- Einzelproblem: Figurenerkennung mit Template-Matching (für mich unlösbar, nicht nachvollziehbare Ergebnisse aus OpenCV) 
+- Workload wäre eigentlich zu bewältigen gewesen, Problem war Lösungsfindung zu Einzelfunktionen
+- bis zuletzt ganze Funktion quasi nutzlos, obwohl Fortschritte gemacht wurden
+- Template-Matching offenbar für die Aufgabenstellung ungeeignet, wegen Zeitmangel wurde keine andere Lösung mehr implementiert
+```
+

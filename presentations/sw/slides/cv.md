@@ -44,6 +44,8 @@ __Bibliotheken:__
 ## Workflow - Empfangen des Bildes
 ### CV/Bilderkennung
 
+<center><img src="images/cv_pipe.png" width="75%" /></center>
+
 ```python
 
 # the function reads the image via pipe

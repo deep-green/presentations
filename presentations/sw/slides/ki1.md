@@ -95,7 +95,7 @@ def neural_net(x):
 
 def train_neural_network(x):
     #Number of simultaneously read games
-    batchsize = 512
+    batch_size = 512
     pgn = readpgn()
     ses = tf.Session()
     inputlist = pgn.getInput()

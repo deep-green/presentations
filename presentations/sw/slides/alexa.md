@@ -36,7 +36,6 @@ __Intents:__
 - whoseTurn
 - lastTurn
 - forfeit
-- awaitMove
 
 ---
 
@@ -80,5 +79,3 @@ exports.forfeit = function (game) {
   });
 }
 ```
-
----
