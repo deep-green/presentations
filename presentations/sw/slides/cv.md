@@ -34,15 +34,14 @@ __Bibliotheken:__
 
 - Erkennen der Lage des Schachbretts
 - Berechnung der Projektion und der Kameradaten
-- Erkennen des Musters des Schachbretts
 - Erkennen der Grenzen des Schachbretts
 - Erkennen der Belegung des Schachbretts
 - Erkennen der Figuren
 
 ---
 
-## Workflow
-### Lage des Schachbretts
+## Workflow - Lage des Schachbretts
+### CV/Bilderkennung
 
 <center><img src="images/cv_middle_lines.png" width="75%" /></center>
 
@@ -161,11 +160,68 @@ def toolchain_02(given_image, already_used_angle):
 
 ---
 
-## Kameradaten - Code-Snippets
+## Workflow - Grenzen des Schachbretts
 ### CV/Bilderkennung
+
+<center><img src="images/cv_threshold.png" width="75%" /></center>
+
+---
+
+## Workflow - Grenzen des Schachbretts
+### CV/Bilderkennung
+
+```python
+
+field colors detected:
+----------------------
+
+   ['0', [1], [2], [3], [4], [5], [6], [7], [8], [9], [10, [11, [12, [13, [14, [15
+100[' ', ' ', 'w', ' ', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', ' ', 'w']
+101[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+102[' ', ' ', 'u', ' ', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', ' ', 'b']
+103[' ', ' ', 'u', ' ', 'u', 'u', 'b', 'u', 'b', 'u', 'b', 'u', 'b', 'u', ' ', 'b']
+104[' ', ' ', 'u', ' ', 'u', 'b', 'u', 'b', 'u', 'b', 'u', 'b', 'u', 'u', ' ', 'u']
+105[' ', ' ', 'b', ' ', 'u', 'u', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'u', ' ', 'b']
+106[' ', ' ', 'b', ' ', 'u', 'b', 'u', 'b', 'w', 'b', 'w', 'b', 'u', 'u', ' ', 'u']
+107[' ', ' ', ' ', ' ', 'u', 'u', 'b', 'u', 'b', 'u', 'b', 'u', 'b', 'u', ' ', 'b']
+108[' ', ' ', ' ', ' ', 'u', 'u', 'u', 'b', 'u', 'u', 'u', 'u', 'u', 'u', ' ', 'b']
+109[' ', ' ', ' ', ' ', 'u', 'w', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', ' ', 'u']
+110[' ', ' ', ' ', ' ', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', ' ', ' ']
+111[' ', ' ', ' ', ' ', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', ' ', ' ']
+112[' ', ' ', ' ', ' ', ' ', 'b', 'b', 'b', 'u', 'u', 'b', 'b', 'b', ' ', ' ', ' ']
+113[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+114[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+115[' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+
+```
+
+---
+
+
+## Workflow - Grenzen des Schachbretts
+### CV/Bilderkennung
+
+```python
+
+best matching color scheme and board direction:
+-----------------------------------------------
+best_start_column : 5
+best_start_line   : 3
+target_line       : ['w', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'w', 'w', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'w', 'w', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'w', 'w', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'w']
+best_line         : ['u', 'b', 'u', 'b', 'u', 'b', 'u', 'b', 'b', 'u', 'b', 'u', 'b', 'u', 'b', 'u', 'u', 'b', 'w', 'b', 'w', 'b', 'w', 'b', 'b', 'u', 'b', 'w', 'b', 'w', 'b', 'u', 'u', 'b', 'u', 'b', 'u', 'b', 'u', 'b', 'u', 'u', 'b', 'u', 'u', 'u', 'u', 'u', 'w', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u', 'u']
+board direction   : right
+max_ranking       : 27
+max_ranking_wrong : 27
+max_ranking_right : 27
+
+```
 
 
 ---
 
-## Kameradaten - Code-Snippets
+## Workflow - Grenzen des Schachbretts
 ### CV/Bilderkennung
+
+<center><img src="images/cv_threshold.png" width="75%" /></center>
+
+---
