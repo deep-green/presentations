@@ -36,7 +36,6 @@ __Bibliotheken:__
 - Berechnung der Projektion und der Kameradaten
 - Erkennen der Grenzen des Schachbretts
 - Erkennen der Belegung des Schachbretts
-- Erkennen der Figuren
 
 ---
 
@@ -156,7 +155,7 @@ def toolchain_02(given_image, already_used_angle):
 
 ```
 
-<center><img src="images/cv_debug_camera.png" width="30%" /></center>
+<center><img src="images/cv_debug_camera.png" width="60%" /></center>
 
 ---
 
@@ -216,12 +215,26 @@ max_ranking_right : 27
 
 ```
 
-
 ---
 
-## Workflow - Grenzen des Schachbretts
+## Workflow - Belegung des Schachbretts
 ### CV/Bilderkennung
 
-<center><img src="images/cv_corners.png" width="75%" /></center>
+<center><img src="images/cv_template.png" width="100%" /></center>
 
 ---
+
+## Workflow - Belegung des Schachbretts
+### CV/Bilderkennung
+
+<center><img src="images/cv_match_result_canny.png" width="100%" /></center>
+
+---
+
+
+
+
+
+
+
+
