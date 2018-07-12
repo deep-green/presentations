@@ -22,16 +22,12 @@ __Methode(n) und Algorithmen:__
 
 ---
 
-<br>
-
 ## Klassisches neurales Netz
 ### Künstliche Intelligenz 1
 
 <img src="images/neuro1.png" width="95%" />
 
 ---
-
-<br>
 
 ## Code-Snippets
 ### Künstliche Intelligenz 1
