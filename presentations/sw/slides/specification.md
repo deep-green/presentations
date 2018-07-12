@@ -38,13 +38,6 @@ class: center, middle
 ---
 
 ## Use-Cases
-### Startseite
-
-<img src="images/usecase-startseite.png" width="80%" />
-
----
-
-## Use-Cases
 ### Hauptmenü
 
 <img src="images/usecase-hauptmenu.png" width="80%" />
