@@ -9,16 +9,15 @@ class: center, middle
 1. Softwarearchitekturdiagramm
 2. Use-Cases
 3. Protokoll
-4. Datenbankschema
-5. Frontend
-6. Alexa
-7. Google Actions
-8. Backend
-9. CV/Bilderkennung
-10. Datenbank
-11. Künstliche Intelligenz
-12. Live Demo
-13. Lessons Learned
+4. Frontend
+5. Alexa
+6. Google Actions
+7. Backend
+8. CV/Bilderkennung
+9. Datenbank
+10. Künstliche Intelligenz
+11. Live Demo
+12. Lessons Learned
 
 ---
 
@@ -72,7 +71,17 @@ class: center, middle
 ---
 
 ## Protokoll
-### Backend &#8667; Client &emsp; 1/3
+### Backend &#8667; Client &emsp; 1/4
+
+#### Definition für reason
+
+| Wert        | Bedeutung                              |
+|:------------|:---------------------------------------|
+|"won"        | Spiel wurde vom Empfänger gewonnen     |
+|"lost"       | Spiel wurde vom Empfänger verloren     |
+|"draw"       | Spiel endet unentschieden              |
+|"con_lost"   | Verbindungsabbruch zum anderen Spieler |
+|"player_end" | Verbindungsabbruch zum anderen Spieler |
 
 #### invitation &emsp; _Zum Einladen eines gegnerischen Spielers_
 
@@ -83,17 +92,17 @@ class: center, middle
 }
 ```
 
+---
+
+## Protokoll
+### Backend &#8667; Client &emsp; 2/4
+
 #### reject &emsp; _Zum Ablehnen eines Zuges oder eines Bildes_
 
 ```json
 {
 }
 ```
-
----
-
-## Protokoll
-### Backend &#8667; Client &emsp; 2/3
 
 #### receive &emsp; _Zum Teilen und/oder Bestätigen eines Zuges und eines Bildes (color: false = white, true = black)_
 
@@ -103,11 +112,16 @@ class: center, middle
   "ID_game": 2,
   "color": false,
   "turns": [
-    "e2-e4",
-    "c2-c4"
+    "e2e4",
+    "c2c4"
   ]
 }
 ```
+
+---
+
+## Protokoll
+### Backend &#8667; Client &emsp; 3/4
 
 #### end &emsp; _Zum Beenden eines Spiels; unabhängig vom Grund (Gewonnen, Verloren, Unentschieden oder Verbindungsabbruch)_
 
@@ -122,7 +136,7 @@ class: center, middle
 ---
 
 ## Protokoll
-### Backend &#8667; Client &emsp; 3/3
+### Backend &#8667; Client &emsp; 4/4
 
 #### games &emsp; _Antwort auf 'getGames'; beinhaltet alle aktiven Spiele, die aktuelle FEN-Notation und die höchste ELO-Zahl der beiden Spieler_
 
@@ -183,7 +197,7 @@ class: center, middle
 
 ```json
 {
-  "image": "fileserver/images/image.png",
+  "image": "data:image/jpeg;base64,/9j/4RiDRXhpZgAATU0AKgA...",
   "color": false,
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 }
