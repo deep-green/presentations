@@ -260,6 +260,19 @@ max_ranking_right : 27
 
 ---
 
+## Workflow - Rückgabe des Ergebnisses
+### CV/Bilderkennung
+
+```python
+
+# generate FEN string
+FEN='rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+# send FEN string back
+print(FEN)
+sys.stdout.flush()
+
+```
+
 
 
 
