@@ -249,7 +249,7 @@ max_ranking_right : 27
 ## Workflow - Belegung des Schachbretts
 ### CV/Bilderkennung
 
-<center><img src="images/cv_templates.png" width="100%" /></center>
+<center><img src="images/cv_templates.png" width="80%" /></center>
 
 ---
 
