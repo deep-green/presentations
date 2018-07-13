@@ -250,3 +250,5 @@ Welche Probleme gab es während des Projekts bei der KI?
 
 - Schlecht dokumentierte Rust-Module
 - Schlechte neon-bindings Dokumentation
+- Gegen Ende des Spiels zu defensive Taktik von KI2
+- Wenig fortgeschrittene Intelligenz von KI1
