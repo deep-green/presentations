@@ -32,7 +32,6 @@ Welche technischen Kenntnisse hast du im Laufe des Projektes allgemein gewonnen?
 
 ```
 - socket.io
-- google Actions
 ```
 
 ### Probleme
@@ -52,7 +51,7 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 ## Frontend (Unreal, Alexa, Google Actions & Web)
 
 ### Theoretisches Wissen
-Welche theoretischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
+Welche theoretischen Kenntnisse hast du im Frontend gewonnen?
 
 ```
 - JSON Objekte korrekt parsen
@@ -62,27 +61,29 @@ Welche theoretischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 ```
 
 ### Technisches Wissen
-Welche technischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
+Welche technischen Kenntnisse hast du im Frontend gewonnen?
 
 ```
 - JavaScript
 - JSON
 - Unreal Engine Blueprint System
 - Erstellen eines SSL Zertifikat
+- Google Actions
 ```
 
 ### Probleme
-Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
+Welche Probleme gab es während des Projekts bei dem Fronted?
 
 ```
 - Bei der visuellen Ausgabe für eine FEN-Notation im Web auf korrekte Variabelnamen achten
 - Teils schlechte Dokumentationen für das Arbeiten mit Blueprints
+- Technologie zu neu (unausgereift, wenig Support / solutions, viel Aufwand den Fehler zu finden, stetige Änderungen, Inkonsistente / falsche docs)
 ```
 
 ## Backend (Logik & Datenbank)
 
 ### Theoretisches Wissen
-Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+Welche theoretischen Kenntnisse hast du im Backend gewonnen?
 
 ```
 - Object-Document Mapping
@@ -91,7 +92,7 @@ Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 
 ### Technisches Wissen
-Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+Welche technischen Kenntnisse hast du im Backend gewonnen?
 
 ```
 - Javascript
@@ -103,7 +104,7 @@ Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 
 ### Probleme
-Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
+Welche Probleme gab es während des Projekts bei dem Backend?
 
 ```
 - der Workload war für die beteiligten Personen zu groß zur Umsetzung aller Anforderungen
@@ -115,7 +116,7 @@ Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 ## Künstliche Intelligenz (KI1 & KI2)
 
 ### Theoretisches Wissen
-Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+Welche theoretischen Kenntnisse hast du im Bereich KI gewonnen?
 
 ```
 - MiniMax-Algorithmus
@@ -124,7 +125,7 @@ Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 
 ### Technisches Wissen
-Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+Welche technischen Kenntnisse hast du im Bereich KI gewonnen?
 
 ```
 - Rust
@@ -134,7 +135,7 @@ Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 
 ### Probleme
-Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
+Welche Probleme gab es während des Projekts bei der KI?
 
 ```
 - Schlecht dokumentierte Rust-Module
@@ -144,7 +145,7 @@ Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 ## CV/Bilderkennung
 
 ### Theoretisches Wissen
-Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+Welche theoretischen Kenntnisse hast du im Bereich CV gewonnen?
 
 ```
 - Staunton-Figuren
@@ -156,7 +157,7 @@ Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 
 ### Technisches Wissen
-Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
+Welche technischen Kenntnisse hast du im Bereich CV gewonnen?
 
 ```
 - Python (eigentliche Implementierung)
@@ -166,7 +167,7 @@ Welche technischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 ```
 
 ### Probleme
-Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
+Welche Probleme gab es während des Projekts bei der CV?
 
 ```
 - teilweise verwirrende OpenCV-Dokumentation (insbesondere Flags)

@@ -78,11 +78,11 @@ def read_image_via_pipe():
 def toolchain_02(given_image, already_used_angle):
     image_original = given_image
     image_resize = resize(image_original)
-    image_blur = blur(image_resize);
-    image_gray = gray(image_blur);
-    image_clahe = clahe(image_gray);
-    image_canny = canny(image_clahe);
-    line_set = houghlinesp(image_canny);
+    image_blur = blur(image_resize)
+    image_gray = gray(image_blur)
+    image_clahe = clahe(image_gray)
+    image_canny = canny(image_clahe)
+    line_set = houghlinesp(image_canny)
     line_list = chess_math.get_list_from_linearray(line_set)
     # divide the houghlines in two parts
     line_list_vertical = chess_math.divide_line_list_by_direction(line_list, 1)

@@ -99,8 +99,7 @@ __Actions updaten__
 
 const {actionssdk} = require('actions-on-google');
 const functions = require('firebase-functions');
-const socket = require('socket.io-client')
-                ('http://ec2-54-93-171-91.eu-central-1.compute.amazonaws.com:4999');
+const socket = require('socket.io-client')('http://ec2-54-93-171-91.eu-central-1.compute.amazonaws.com:4999');
 const app = actionssdk({debug: true});
 
 app.intent('actions.intent.MAIN', (conv) => {
@@ -109,13 +108,14 @@ app.intent('actions.intent.MAIN', (conv) => {
 
 app.intent('actions.intent.NEWGAME', (conv) => {
   socket.emit('newGame', { ... },
+
   socket.once('receive', function(msg) {
     conv.ask('Es wird ein neues Spiel gestartet.')
   });
+
   socket.once('reject', function() {
     conv.ask('Es konnte kein neues Spiel gestartet werden.')
   });
 })
-
 exports.myFunction = functions.https.onRequest(app);
 ```
