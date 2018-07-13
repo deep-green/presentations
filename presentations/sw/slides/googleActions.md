@@ -59,21 +59,17 @@ __Actions updaten__
 
 ## How to
 ### Google Actions / Google Actions SDK / action.json
-```
+```json
 {
   "actions": [
     {
       "description": "Default Welcome Intent",
       "name": "MAIN",
-      "fulfillment": {
-        "conversationName": "deepgreen"
-      },
+      "fulfillment": { "conversationName": "deepgreen" },
       "intent": {
         "name": "actions.intent.MAIN",
         "trigger": {
-          "queryPatterns": [
-            "schach spielen"
-          ]
+          "queryPatterns": [ "schach spielen" ]
         }
       }
     }
@@ -94,7 +90,7 @@ __Actions updaten__
 ## How to
 ### Google Actions / Google Actions SDK / Fulfillment
 
-```
+```js
 'use strict';
 
 const {actionssdk} = require('actions-on-google');

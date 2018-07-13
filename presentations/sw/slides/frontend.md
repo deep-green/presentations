@@ -12,7 +12,7 @@ class: center, middle
 ---
 
 ## C++ Code Beispiel
-### Frontend - Unreal Engine
+### Frontend - Desktop
 - Login Widget
 - Funktionen sind über die Blueprint aufrufbar
 
@@ -37,7 +37,7 @@ class DEEPGREEN_API ULoginWidget : public UUserWidget
 ---
 
 ## Unreal Engine Blueprints
-### Frontend - Unreal Engine
+### Frontend - Desktop
 
 - Weiß -> Programmablauf
 - Gelb -> Vektoren
@@ -48,23 +48,27 @@ class DEEPGREEN_API ULoginWidget : public UUserWidget
 - Blau -> Objekte
 
 ---
+
 ## FEN String Konvertierung
-### Frontend - Unreal Engine
+### Frontend - Desktop
+
 <img src="images/frontend/FENtoArray.PNG" width="100%" />
 
 ---
+
 ## FEN String zu Array
-### Frontend - Unreal Engine
+### Frontend - Desktop
 <img src="images/frontend/FENtoArray1.PNG" width="100%" />
 
 ---
+
 ## FEN String leere Felder
-### Frontend - Unreal Engine
+### Frontend - Desktop
 <img src="images/frontend/FENtoArray2.PNG" width="100%" />
 
 ---
 ## FEN String Figuren
-### Frontend - Unreal Engine
+### Frontend - Desktop
 <img src="images/frontend/FENtoArray3.PNG" width="100%" />
 
 

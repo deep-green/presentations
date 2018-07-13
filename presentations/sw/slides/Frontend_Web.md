@@ -1,15 +1,21 @@
 class: center, middle
 # Frontend - Zuschausermodus Web
 
-### Technologien
-- Webstorm
-	- JavaScript
-	- HTML
-- SocketIO
+---
+
+## Technologie
+### Frontend - Zuschausermodus Web
+
+__Programmiersprache(n):__
+- JavaScript
+
+__Bibliotheken:__
+- socket.io
 
 ---
 
-# Anforderungen Zuschauermodus
+## Anforderungen Zuschauermodus
+### Frontend - Zuschausermodus Web
 
 - Spiel auswählen
 - Automatische Aktualisierung des Zuges
@@ -17,7 +23,8 @@ class: center, middle
 
 ---
 
-# Anzeige der Figuren
+## Anzeige der Figuren
+### Frontend - Zuschausermodus Web
 
 |weiß			|schwarz|
 |--			|--|
@@ -30,14 +37,19 @@ class: center, middle
 
 ---
 
-#Darstellung
+## Darstellung
+### Frontend - Zuschausermodus Web
 
 - 8x8 Feld
 - jedes Feld einzeln Ansprechbar
 - FEN --> Positionierung
 
-<img src="../images/frontend/SchachbrettWEB.png" width="50%" />
+<img src="images/frontend/SchachbrettWEB.png" width="50%" />
+
 ---
+
+## Code-Snippets
+### Frontend - Zuschausermodus Web
 
 ```js
 for (position = 0; position < fen.length; position++) {
@@ -63,9 +75,15 @@ for (position = 0; position < fen.length; position++) {
             else if (fen.charAt(position) == 'k') {
                 aktuell = '&#9818';
             }
-           [...]
+           .
+           .
 ```
+
 ---
+
+## Code-Snippets
+### Frontend - Zuschausermodus Web
+
 ```js
   if (idZeile == 1) {
            if (idSpalte == 1) {
@@ -86,14 +104,9 @@ for (position = 0; position < fen.length; position++) {
            else if (idSpalte == 6) {
                document.getElementById('c16').innerHTML = aktuell;
            }
-           else if (idSpalte == 7) {
-                document.getElementById('c17').innerHTML = aktuell;
-           }
-           else if (idSpalte == 8) {
-                document.getElementById('c18').innerHTML = aktuell;
-           }
+           .
+           .
       }
-            [...]
 }
 ```
 

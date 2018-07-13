@@ -56,7 +56,7 @@ class: center, middle
 
 <img src="images/usecase-ingame-voice.png" width="75%" />
 
---- 
+---
 
 class: center, middle
 # Protokoll
