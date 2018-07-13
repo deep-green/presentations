@@ -29,16 +29,16 @@ __Framework(s):__
 const socketAi1 = require('socket.io-client')('http://ec2-54-93-171-91.eu-central-1.compute.amazonaws.com:8008');
 
 socketAi1.on('makeMove', (data) => {
+    console.log('AI 1 -> makeMove: ' + util.inspect(data, {showHidden: false, depth: null}));
 
     db_connector.ActiveGameData.findById(data.ID_game, 'socketRoom', (err, game)=> {
         if(err || (game.socketRoom === undefined)) {
             socketAi1.emit('reject', dg_interface.emit_reject());
-            return;
+        } else {
+            //send 'receive' to other player and all viewers watching the game
+            console.log('AI 1 -> send "receive" to all users/players in ' + game.socketRoom);
+            io.of('/').in(game.socketRoom).emit('receive', dg_interface.emit_receive(data.FEN, data.ID_game, false));
         }
-
-        //send 'receive' to other player and all viewers watching the game
-        io.of('/').in(game.socketRoom).emit('receive', dg_interface.emit_receive(data.FEN, data.ID_game, false));
-
     });
 });
 ```
@@ -57,7 +57,7 @@ function setUserTokenIfNull(socketId, jwtToken) {
     }
 }
 
-// socket server events 
+// socket server events
 io.on('connection', (client) => {
 
     //add new connection to activeConnections
@@ -65,11 +65,11 @@ io.on('connection', (client) => {
 
     // disconnect -> remove client from list
     client.on('disconnect', ()=> {
+        .
+        .
+        .
         delete activeConnections[client.id];
     });
-    .
-    .
-    .
 ```
 
 ---
@@ -100,21 +100,19 @@ db_connector.ActiveGameData.findById(data.ID_game, 'socketRoom whiteID blackID',
 
     if(err || (game.socketRoom === undefined)) {
         client.emit('reject', dg_interface.emit_reject());
-        return;
+    } else {
+        let sendData = dg_interface.emit_receive(data.FEN, data.ID_game, false); 
+
+        //send 'receive' to other player and all viewers watching the game
+        client.to(game.socketRoom).emit('receive', sendData);
+        client.emit('receive', sendData);
+
+        if(game.whiteID === 'ki_1' || game.blackID === 'ki_1') {
+            socketAi1.emit('receive', sendData);
+        } else if (game.whiteID === 'ki_2' || game.blackID === 'ki_2') {
+            socketAi2.emit('receive', sendData);
+        }
     }
-
-    let sendData = dg_interface.emit_receive(data.FEN, data.ID_game, false); 
-
-    //send 'receive' to other player and all viewers watching the game
-    client.to(game.socketRoom).emit('receive', sendData);
-    client.emit('receive', sendData);
-
-    if(game.whiteID === 'ki_1' || game.blackID === 'ki_1') {
-        socketAi1.emit('receive', sendData);
-    } else if (game.whiteID === 'ki_2' || game.blackID === 'ki_2') {
-        socketAi2.emit('receive', sendData);
-    }
-
 });
 ```
 
@@ -160,7 +158,10 @@ function check_makeMove(data) {
 
     if (typeof (data) !== 'object') {
         retVal = false;
+    } else if(Object.keys(data).length === 0) {
+        retVal = false;
     } else {
+
         if (!data.hasOwnProperty('FEN')) {
             retVal = false;
         }
@@ -173,7 +174,6 @@ function check_makeMove(data) {
             retVal = false;
         }
     }
-
     return retVal;
 }
 ```
