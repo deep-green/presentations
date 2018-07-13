@@ -13,7 +13,7 @@ Phillip Penner    | KI                                 | KIvsKI                 
 Luis Deutsch      | KI                                 | SocketIO, KIvsKI                         |
 Tobias Koppmann   | Backend, Datenbank                 | Integration Client-Kommunikation         |
 Hendrik Schröder  | Zuschauermodus Web				         | Weboberfläche Zuschauermodus             |
-Nicola Kühnert    | Desktop Frontend                   | Unreal Engine                            |
+Nicola Kühnert    | Desktop Frontend, Unreal Engine    | -                                        |
 Julien Garb       | Alexa                              | Alexa                                    |
 Torsten Niemeier  | CV/Bilderkennung                   | nirgendwo                                |
 _Yourname_        | _place_                            | _holder_                                 |
@@ -55,8 +55,6 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 Welche theoretischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 
 ```
-- Nutzung von SocketIO im Web und in C++
-- SocketIO Plugins für Unreal
 - JSON Objekte korrekt parsen
 - FEN-Notation parsen und korrekt ausgeben
 - Umgang und Programmierung von Alexa
@@ -67,7 +65,6 @@ Welche theoretischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 Welche technischen Kenntnisse hast du durch die Wahl des Themas gewonnen?
 
 ```
-- Einbindung von SocketIO im Web und in C++
 - JavaScript
 - JSON
 - Unreal Engine Blueprint System
