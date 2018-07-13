@@ -1,10 +1,11 @@
 class: center, middle
-# Frontend - Unreal Engine
+# Frontend
+## Desktop
 
 ---
 
 ## Technologien
-### Frontend - Unreal Engine
+### Frontend - Desktop
 - Unreal Engine Version 4.19.2
 - SocketIO Plugin für Unreal v0.8.0
 - Visual Studio 2017

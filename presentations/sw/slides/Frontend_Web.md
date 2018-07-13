@@ -1,5 +1,6 @@
 class: center, middle
-# Frontend - Zuschausermodus Web
+# Frontend
+## Zuschausermodus Web
 
 ---
 

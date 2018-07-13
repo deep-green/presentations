@@ -1,10 +1,11 @@
 class: center, middle
-# Alexa
+# Frontend
+## Alexa
 
 ---
 
 ## Technologie
-### Alexa
+### Frontend - Alexa
 
 __Programmiersprache:__
 - JavaScript
@@ -16,7 +17,7 @@ __Framework(s):__
 ---
 
 ## Skill
-### Alexa
+### Frontend - Alexa
 
 #### Aufrufen des Alexa Skills
 __Invocation Name:__
@@ -28,7 +29,7 @@ __Beispiel__
 ---
 
 ## Intents
-### Alexa
+### Frotend - Alexa
 
 __Intents:__
 - newGame - Erstellt neues Spiel
@@ -40,7 +41,7 @@ __Intents:__
 ---
 
 ## Code-Snippets
-### Alexa
+### Frotend - Alexa
 
 #### Intent im Backend
 ```js
@@ -68,7 +69,7 @@ app.intent('forfeit',
 ---
 
 ## Code-Snippets
-### Alexa
+### Frotend - Alexa
 
 #### Funktion im Backend
 ```js

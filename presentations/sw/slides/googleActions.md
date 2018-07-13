@@ -1,11 +1,12 @@
 class: center, middle
 
-# Google Actions
+# Frontend
+## Google Actions
 
 ---
 
 ## Technologie
-### Google Actions
+### Frontend - Google Actions
 
 __Programmiersprache(n):__
 - JavaScript
@@ -20,7 +21,7 @@ __Weiteres:__
 ---
 
 ## How to
-### Google Actions
+### Frontend - Google Actions
 
 __Google Actions erstellen__
 - Dialogflow
@@ -33,14 +34,14 @@ __Bereitstellen__
 ---
 
 ## How to
-### Google Actions / Dialogflow
+### Frontend - Google Actions
 
 <img src="images/dialogflowui.png" width="70%" />
 
 ---
 
 ## How to
-### Google Actions / Google Actions SDK
+### Frontend - Google Actions / Google Actions SDK
 
 __Wissenswertes__
 - Google Actions funktionieren über Google Account
@@ -58,7 +59,9 @@ __Actions updaten__
 ---
 
 ## How to
-### Google Actions / Google Actions SDK / action.json
+### Frontend - Google Actions / Google Actions SDK
+#### action.json
+
 ```json
 {
   "actions": [
@@ -88,7 +91,8 @@ __Actions updaten__
 ---
 
 ## How to
-### Google Actions / Google Actions SDK / Fulfillment
+### Frontend - Google Actions / Google Actions SDK
+#### Fulfillment
 
 ```js
 'use strict';
@@ -97,7 +101,6 @@ const {actionssdk} = require('actions-on-google');
 const functions = require('firebase-functions');
 const socket = require('socket.io-client')
                 ('http://ec2-54-93-171-91.eu-central-1.compute.amazonaws.com:4999');
-
 const app = actionssdk({debug: true});
 
 app.intent('actions.intent.MAIN', (conv) => {
@@ -106,15 +109,13 @@ app.intent('actions.intent.MAIN', (conv) => {
 
 app.intent('actions.intent.NEWGAME', (conv) => {
   socket.emit('newGame', { ... },
-
   socket.once('receive', function(msg) {
     conv.ask('Es wird ein neues Spiel gestartet.')
   });
-
   socket.once('reject', function() {
     conv.ask('Es konnte kein neues Spiel gestartet werden.')
   });
-});
+})
 
 exports.myFunction = functions.https.onRequest(app);
 ```
