@@ -11,7 +11,7 @@ __Programmiersprache(n):__
 - JavaScript
 - Rust
 
-__Framework(s):__
+__Framework(s) & Bibliothek(en):__
 - node.js
 - neon-bindings
 - Jest

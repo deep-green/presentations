@@ -10,7 +10,7 @@ class: center, middle
 __Programmiersprache:__
 - JavaScript
 
-__Framework(s):__
+__Framework(s) & Bibliothek(en):__
 - node.js
 - socket.io
 
@@ -21,7 +21,7 @@ __Framework(s):__
 
 #### Aufrufen des Alexa Skills
 __Invocation Name:__
-- mein schachspiel
+- mein Schachspiel
 
 __Beispiel__
 - Alexa öffne mein Schachspiel
@@ -29,7 +29,7 @@ __Beispiel__
 ---
 
 ## Intents
-### Frotend - Alexa
+### Frontend - Alexa
 
 __Intents:__
 - newGame - Erstellt neues Spiel
@@ -41,7 +41,7 @@ __Intents:__
 ---
 
 ## Code-Snippets
-### Frotend - Alexa
+### Frontend - Alexa
 
 #### Intent im Backend
 ```js
@@ -69,7 +69,7 @@ app.intent('forfeit',
 ---
 
 ## Code-Snippets
-### Frotend - Alexa
+### Frontend - Alexa
 
 #### Funktion im Backend
 ```js

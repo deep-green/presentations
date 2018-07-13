@@ -10,11 +10,11 @@ class: center, middle
 2. Use-Cases
 3. Protokoll
 4. Frontend
-5. Alexa
-6. Google Actions
+    - Visuell
+    - Sprachsteuerung
 7. Backend
-8. CV/Bilderkennung
-9. Datenbank
+8. Datenbank
+9. CV/Bilderkennung
 10. Künstliche Intelligenz
 11. Live Demo
 12. Lessons Learned
@@ -97,7 +97,7 @@ class: center, middle
 }
 ```
 
-#### receive &emsp; _Zum Teilen und/oder Bestätigen eines Zuges und eines Bildes (color: false = white, true = black)_
+#### receive &emsp; _Zum Teilen und/oder Bestätigen eines Zuges oder eines Bildes (color: false = white, true = black)_
 
 ```json
 {

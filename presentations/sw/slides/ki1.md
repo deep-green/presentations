@@ -9,10 +9,8 @@ class: center, middle
 __Programmiersprache(n):__
 - Python
 
-__Framework(s):__
+__Framework(s) & Bibliothek(en):__
 - Tensorflow
-
-__Bibliotheken:__
 - python-chess
 - socket.io
 

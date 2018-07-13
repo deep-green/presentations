@@ -36,7 +36,9 @@ __Bereitstellen__
 ## How to
 ### Frontend - Google Actions
 
+<center>
 <img src="images/dialogflowui.png" width="70%" />
+</center>
 
 ---
 

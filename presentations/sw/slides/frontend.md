@@ -12,7 +12,7 @@ class: center, middle
 
 ---
 
-## C++ Code Beispiel
+## Code-Snippets
 ### Frontend - Desktop
 - Login Widget
 - Funktionen sind über die Blueprint aufrufbar
@@ -61,6 +61,10 @@ class DEEPGREEN_API ULoginWidget : public UUserWidget
 ### Frontend - Desktop
 <img src="images/frontend/FENtoArray1.PNG" width="100%" />
 
+```
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+```
+
 ---
 
 ## FEN String leere Felder
@@ -70,6 +74,9 @@ class DEEPGREEN_API ULoginWidget : public UUserWidget
 ---
 ## FEN String Figuren
 ### Frontend - Desktop
-<img src="images/frontend/FENtoArray3.PNG" width="100%" />
+
+<center>
+<img src="images/frontend/FENtoArray3.PNG" width="80%" />
+</center>
 
 
