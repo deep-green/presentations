@@ -48,7 +48,7 @@ Welche allgemeinen Probleme gab es während des Projekts (Teamarbeit, Projektlei
 
 ```
 
-## Frontend (Unreal, Alexa, Google Actions & Web)
+## Frontend (Desktop, Alexa, Google Actions & Web)
 
 ### Theoretisches Wissen
 Welche theoretischen Kenntnisse hast du im Frontend gewonnen?
