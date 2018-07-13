@@ -231,3 +231,35 @@ function getFEN(buffer, pyModulePath) {
     });
 }
 ```
+
+---
+
+## Code-Snippets
+### Backend
+#### `mov.rs -> get_moves` Zuggenerator
+
+```rust
+pub fn get_moves(fen: String) -> String {
+    let iterable: MoveGen = MoveGen::new(Board::from_fen(fen).unwrap(), true);
+
+    let mut ret: String = "".to_string();
+    let mut count: usize = 0;
+    let size: usize = iterable.len();
+
+    for mut item in iterable {
+        let i = item.to_string();
+        let mut split = i.split("-").collect::<Vec<&str>>();
+
+        ret.push_str(&split.pop().unwrap());
+        ret.push_str(&split.pop().unwrap());
+
+        if count < size - 1 {
+            ret.push_str(&", ");
+        }
+
+        count += 1;
+    }
+
+    return ret;
+}
+```
