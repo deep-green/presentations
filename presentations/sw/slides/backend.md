@@ -165,11 +165,9 @@ function check_makeMove(data) {
         if (!data.hasOwnProperty('FEN')) {
             retVal = false;
         }
-
         if (!data.hasOwnProperty('ID_game')) {
             retVal = false;
         }
-
         if (!data.hasOwnProperty('token')) {
             retVal = false;
         }
