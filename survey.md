@@ -147,7 +147,6 @@ Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 Welche theoretischen Kenntnisse hast du im Laufe des Projektes gewonnen?
 
 ```
-- FEN-Notation
 - Staunton-Figuren
 - Lageerkennung (Rotationen, Translationen)
 - Rotationsvektor
