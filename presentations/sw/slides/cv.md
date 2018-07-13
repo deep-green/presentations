@@ -4,7 +4,7 @@ class: center, middle
 ---
 
 ## Technologie
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 __Programmiersprache(n):__
 - Python
@@ -16,7 +16,7 @@ __Bibliotheken:__
 ---
 
 ## Methoden und Algorithmen
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 - Bildnormierung: OpenCV.resize, OpenCV.cvtColor
 - Noise-Reduction: OpenCV.GaussianBlur, OpenCV.bilateralFilter
@@ -30,7 +30,7 @@ __Bibliotheken:__
 ---
 
 ## Workflow
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 - Empfangen des Bildes
 - Erkennen der Lage des Schachbretts
@@ -42,7 +42,7 @@ __Bibliotheken:__
 ---
 
 ## Workflow - Empfangen des Bildes
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_pipe.png" width="75%" /></center>
 
@@ -64,14 +64,14 @@ def read_image_via_pipe():
 ---
 
 ## Workflow - Lage des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_middle_lines.png" width="75%" /></center>
 
 ---
 
 ## Lage des Schachbretts - Code-Snippets
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 ```python
 # toolchain to get best verticals
@@ -102,14 +102,14 @@ def toolchain_02(given_image, already_used_angle):
 ---
 
 ## Workflow - Berechnung der Projektion
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_projection.png" width="80%" /></center>
 
 ---
 
 ## Projektion - Code-Snippets
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 ```python
 
@@ -129,7 +129,7 @@ def toolchain_02(given_image, already_used_angle):
 ---
 
 ## Projektion - Code-Snippets
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 ```python
 
@@ -145,14 +145,14 @@ def toolchain_02(given_image, already_used_angle):
 ---
 
 ## Projektion - Verfeinerung
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_raster.png" width="75%" /></center>
 
 ---
 
 ## Workflow - Ermittlung der Kameradaten
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_swing.png" width="100%" /></center>
 
@@ -160,7 +160,7 @@ def toolchain_02(given_image, already_used_angle):
 ---
 
 ## Kameradaten - Code-Snippets
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 ```python
 
@@ -184,14 +184,14 @@ def toolchain_02(given_image, already_used_angle):
 ---
 
 ## Workflow - Grenzen des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_threshold.png" width="75%" /></center>
 
 ---
 
 ## Workflow - Grenzen des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 ```python
 
@@ -222,7 +222,7 @@ field colors detected:
 
 
 ## Workflow - Grenzen des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 ```python
 
@@ -242,35 +242,35 @@ max_ranking_right : 27
 ---
 
 ## Workflow - Grenzen des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_corners.png" width="75%" /></center>
 
 ---
 
 ## Workflow - Belegung des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_template.png" width="100%" /></center>
 
 ---
 
 ## Workflow - Belegung des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_templates.png" width="80%" /></center>
 
 ---
 
 ## Workflow - Belegung des Schachbretts
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 <center><img src="images/cv_match_result_canny.png" width="80%" /></center>
 
 ---
 
 ## Workflow - Rückgabe des Ergebnisses
-### CV/Bilderkennung
+### CV / Bilderkennung
 
 ```python
 

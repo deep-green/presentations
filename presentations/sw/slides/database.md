@@ -6,8 +6,10 @@ class: center, middle
 ## Technologie
 ### Datenbank
 
-__Framework(s):__
+__DBMS:__
 - mongoDB
+
+__Bibliothek(en):__
 - mongoose
 
 ---

@@ -31,7 +31,6 @@ __Methode(n) und Algorithmen:__
 ### Künstliche Intelligenz 1
 
 ```python
-
 # Network Parameters
 n_hidden_1 = 500 # 1st layer number of neurons
 n_hidden_2 = 500 # 2nd layer number of neurons
@@ -65,7 +64,6 @@ biases = {
 ### Künstliche Intelligenz 1
 
 ```python
-
 # Create model
 def neural_net(x):
     # Hidden fully connected layer with 500 neurons
@@ -90,7 +88,6 @@ def neural_net(x):
 ### Künstliche Intelligenz 1
 
 ```python
-
 def train_neural_network(x):
     #Number of simultaneously read games
     batch_size = 512
@@ -105,7 +102,6 @@ def train_neural_network(x):
     optimizer = tf.train.AdamOptimizer().minimize(cost)
     #Number of repeats
     hm_epochs = 100
-    #Init Variables
     ses.run(tf.global_variables_initializer())
     for epoch in range(hm_epochs):
         epoch_loss = 0
@@ -126,7 +122,6 @@ def train_neural_network(x):
 ### Künstliche Intelligenz 1
 
 ```python
-
 @sio.on('receive')
 def message(sid, data):
     print("receive", data)
