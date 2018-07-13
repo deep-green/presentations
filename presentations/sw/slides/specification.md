@@ -178,20 +178,19 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 2/6
 
+#### accept &emsp; _Zum Annehmen eines Spiels_
+
+```json
+{
+  "ID_game": 2,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"  
+}
+```
+
 #### reject &emsp; _Zum Ablehnen von Einladungen_
 
 ```json
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
-}
-```
-
-#### image &emsp; _Zum Hochladen einer Spielsituation per Bild_
-
-```json
-{
-  "image": "data:image/jpeg;base64,/9j/4RiDRXhpZgAATU0AKgA...",
-  "color": false,
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 }
 ```
@@ -226,12 +225,13 @@ class: center, middle
 ## Protokoll
 ### Client &#8667; Backend &emsp; 4/6
 
-#### accept &emsp; _Zum Annehmen eines Spiels_
+#### image &emsp; _Zum Hochladen einer Spielsituation per Bild_
 
 ```json
 {
-  "ID_game": 2,
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"  
+  "image": "data:image/jpeg;base64,/9j/4RiDRXhpZgAATU0AKgA...",
+  "color": false,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 }
 ```
 
