@@ -77,6 +77,7 @@ Welche Probleme gab es während des Projekts bei dem oben angegebenen Thema?
 ```
 - Bei der visuellen Ausgabe für eine FEN-Notation im Web auf korrekte Variabelnamen achten
 - Teils schlechte Dokumentationen für das Arbeiten mit Blueprints
+- Technologie zu neu (unausgereift, wenig Support / solutions, viel Aufwand den Fehler zu finden, stetige Änderungen, Inkonsistente / falsche docs)
 ```
 
 ## Backend (Logik & Datenbank)
